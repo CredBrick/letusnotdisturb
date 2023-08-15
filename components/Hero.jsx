@@ -49,7 +49,7 @@ import {GiArchiveRegister} from 'react-icons/gi';
             className='w-full h-full rounded-none bg-center bg-cover duration-500 text-black flex flex-col items-center text-center'>
                 
             {/* headings */}
-            <p className='p-8 font-semibold md:text-5xl text-2xl'>
+            <p className='p-8 font-semibold md:text-5xl text-3xl'>
                 {slides[currentIndex].heading.split('\n').map((line, index) => (
                 <React.Fragment key={index}>
                     {line}

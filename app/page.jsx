@@ -8,9 +8,6 @@ const page = () => {
         <div className='min-h-screen background'> 
         <Hero />
         </div>
-        {/* <div className='background'> 
-        <Footer />
-        </div> */}
     </main>
     
   )

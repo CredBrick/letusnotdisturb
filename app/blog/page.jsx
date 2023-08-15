@@ -9,7 +9,7 @@ const page = () => {
                 src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625673532891-QYJWS5UEG70DSVCD8MZ7/diary-968592_1920.jpg"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 text-white">
-                <p className="absolute md:top-[70px] top-[50px] md:text-4xl text-4xl">Stay Connected To Our Blogs</p>
+                <p className="absolute md:top-[180px] top-[200px] md:text-4xl text-2xl">Stay Connected To Our Blogs</p>
             </div>
         </div>
         <div className="mt-4 grid grid-cols-1 lg:grid-cols-3 lg:gap-3 md:gap-5 gap-10 my-14 md:px-0">
