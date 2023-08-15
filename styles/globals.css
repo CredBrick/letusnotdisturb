@@ -5,10 +5,38 @@
 .background {
   background-color: #1A1A1A;
 }
-.fade-in {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  .submenu {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  }
+  
+  .submenu.active {
+    opacity: 1;
+    max-height: 200px;
+  }
+  
+  .mobile-icon {
+    opacity: 0;
+    transform: translateY(-70%);
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  }
+  
+  .mobile-icon.active {
+    opacity: 1;
+    transform: translate(0);
 }
-.fade-in.visible {
-  opacity: 1;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.submenu-content {
+  animation: fade-in 0.8s ease-in-out;
 }

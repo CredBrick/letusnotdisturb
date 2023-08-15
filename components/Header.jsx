@@ -4,6 +4,7 @@ import Wrapper from './Wrapper';
 import Link from 'next/link';
 import Mobileheader from './Mobileheader';
 import Menuheader from './Menuheader';
+import '../styles/globals.css'
 
 import {VscChromeClose} from 'react-icons/vsc';
 import {CiMenuFries} from 'react-icons/ci';
@@ -64,8 +65,7 @@ const controlNavbar = () => {
                 Connect With Us
             </Link>
                 {/* mobile screen */}
-            <div className='w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center
-              items-center hover:bg-black/[0.05] relative cursor-pointer -mr-2 md:hidden'>
+            <div className={`w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] relative cursor-pointer -mr-2 md:hidden submenu active ${Mobileheader ? 'active' : ''}`}>
                 {mobileMenu ? ( 
                   <VscChromeClose
                     className='text-[16px] md:hidden'
@@ -87,3 +87,5 @@ const controlNavbar = () => {
 }
 
 export default Header;
+
+// 'w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] relative cursor-pointer -mr-2 md:hidden'
