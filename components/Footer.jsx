@@ -7,12 +7,12 @@ import Wrapper from "./Wrapper";
 const Footer = () => {
     return (
         <footer className="background text-white pt-14 pb-3">
-            <Wrapper className="flex justify-between flex-col md:flex-row gap-[50px] md:gap-7">
+            <Wrapper className="flex justify-between flex-col md:flex-row gap-[30px] md:gap-7">
                 {/* LEFT START */}
-                <div className="flex gap-[50px] md:gap-[75px] lg:gap-[250px] flex-col md:flex-row">
+                <div className=" flex flex-col gap-[50px] md:gap-[75px] lg:gap-[250px] md:flex-row">
                     {/* MENU START */}
                     <div className="flex flex-col gap-3 ">
-                        <div className="font-oswald font-medium uppercase text-md">
+                        <div className="font-oswald font-medium uppercase text-m">
                             Learn More
                         </div>
                         <Link
@@ -39,7 +39,7 @@ const Footer = () => {
                     {/* MENU END */}
 
                     {/* NORMAL MENU START */}
-                    <div className="flex gap-[50px] md:gap-[75px] lg:gap-[250px] shrink-0">
+                    <div className="flex md:flex-row flex-col gap-[50px] md:gap-[75px] lg:gap-[250px] shrink-0">
                         {/* MENU START */}
                         <div className="flex flex-col gap-3">
                             <div className="font-oswald font-medium uppercase text-md">
@@ -62,7 +62,7 @@ const Footer = () => {
                         <div className='flex flex-col'>
                             <div className='font-oswald font-medium uppercase text-md'>Social Media</div>
                         
-                        <div className='flex justify-between flex-col md:flex-row gap-2 py-3'>
+                            <div className='flex justify-between flex-row gap-2 py-3'>
                                 <div
                                     onClick={() => 
                                         window.open("https://www.instagram.com/lehza.in/", "_blank")
@@ -142,8 +142,6 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* RIGHT END */}
-            </Wrapper>
-            <Wrapper className="flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0">
             </Wrapper>
         </footer>
     );

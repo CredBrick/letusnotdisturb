@@ -4,9 +4,9 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const data = [
-    { id : 1, name: "Lehza.in"},
+    { id : 1, name: "Lehza.in", url: "https://letusnotdisturb.com/lehza-in"},
     { id : 2, name: "Letusnotdisturb", subMenu: true},
-    { id : 3, name: "Blogs", url: "/blogs"},
+    { id : 3, name: "Blogs", url: "/blog"},
     { id : 4, name: "Team", url: "/team"},
     { id : 5, name: "Discover", subMenu: true},
     { id : 6, name: "Contact Us", url: "/contact"}
@@ -79,13 +79,9 @@ const Menu = ({ showCatMenu, setShowCatMenu }) => {
                 </span>
               </>
             ) : (
-                <Link href='https://letusnotdisturb.com/lehza-in'>
-                  {item.name === 'Lehza.in' ? (
-                    <p className='hover:bg-black hover:text-white'>{item.name}</p>
-                  ) : (
-                    <>{item.name}</>
-                  )}
-                </Link>
+              <Link href={item.url}>
+                <p className='hover:bg-black hover:text-white'>{item.name}</p>
+              </Link>
               )}
             </li>
         ))}

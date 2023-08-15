@@ -68,7 +68,7 @@ import {GiArchiveRegister} from 'react-icons/gi';
                 ))}
             </p>
             {/* button */}
-            <button className='absolute mt-4 text-xl md:top-[510px] top-[340px] hover:bg-black hover:text-white rounded py-5 px-2'>
+            <button className='absolute mt-4 text-xl md:top-[510px] font-semibold top-[340px] hover:bg-black hover:text-white rounded py-5 px-2'>
                   <p>{slides[currentIndex].btntext}</p>
             </button>
         </div>
@@ -194,13 +194,12 @@ import {GiArchiveRegister} from 'react-icons/gi';
         src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/d5d012d1-935e-4eb1-8b9c-974c69ae7610/rings-100181_1920.jpg?format=2500w"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4 text-white">
-        <p className="absolute md:top-[70px] top-[50px] md:text-4xl text-xl">We’d love to work with you.</p>
-        <button className='absolute mt-4 text-xl md:top-[150px] top-[300px] hover:bg-white/90 text-black bg-white hover:opacity-60 py-5 px-2 font-semibold '>
+        <p className="absolute md:top-[70px] top-[120px] md:text-4xl text-2xl">We’d love to work with you</p>
+        <button className='absolute mt-4 text-xl md:top-[150px] top-[160px] hover:bg-white/90 text-black bg-white hover:opacity-60 py-5 px-2 font-semibold'>
             <p>Connect With Us</p>
         </button>
       </div>
     </div>
-
   </div> 
   )
 }
