@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*:focus {
+  outline: none;
+}
+
 .background {
   background-color: #1A1A1A;
 }
@@ -19,8 +23,8 @@
   
   .mobile-icon {
     opacity: 0;
-    transform: translateY(-70%);
-    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
   
   .mobile-icon.active {

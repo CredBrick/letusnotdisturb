@@ -4,6 +4,7 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import {IoIosPeople} from 'react-icons/io';
 import {PiChalkboardTeacherDuotone} from 'react-icons/pi';
 import {GiArchiveRegister} from 'react-icons/gi';
+import '../styles/globals.css';
 
 
   const slides = [
@@ -74,9 +75,9 @@ import {GiArchiveRegister} from 'react-icons/gi';
         </div>
 
       {/* Left Arrow */}
-      <div className='md:hidden group-hover:block absolute md:top-[50%] top-[90%] -translate-x-0 translate-y-[-50%] md:left-5 left-[38%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+      <button className='focus md:hidden group-hover:block absolute md:top-[50%] top-[90%] -translate-x-0 translate-y-[-50%] md:left-5 left-[38%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
+      </button>
 
       {/* Right Arrow */}
       <div className='md:hidden group-hover:block absolute md:top-[50%] top-[90%] -translate-x-0 translate-y-[-50%] md:right-5 right-[38%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
