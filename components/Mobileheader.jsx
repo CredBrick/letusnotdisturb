@@ -38,7 +38,7 @@ const Mobileheader = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
     };
   
     return (
-      <ul className='flex flex-col gap-10 md:hidden font-bold absolute top-[118px] left-0 w-full h-[800px] bg-black text-white text-center items-center'>
+      <ul className='flex flex-col gap-6 font-normal md:hidden absolute top-[118px] left-0 w-full h-[800px] bg-black text-white text-center items-center justify-between'>
         {data.map((item) => (
           <li
             key={item.id}
