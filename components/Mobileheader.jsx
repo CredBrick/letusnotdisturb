@@ -96,7 +96,7 @@ const Mobileheader = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
             )}
           </li>
         ))}
-        <Link href="/connect" className="md:flex font-bold text-white hover:bg-white hover:text-black rounded py-5 px-2 mb-10">
+        <Link href="/connect" className="md:flex font-bold text-white hover:bg-white hover:text-black rounded py-5 px-2 mb-[120px]">
                 Connect With Us
         </Link>
       </ul>
