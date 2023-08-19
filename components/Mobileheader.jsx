@@ -38,7 +38,7 @@ const Mobileheader = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
     };
   
     return (
-      <ul className='flex flex-col gap-6 font-normal md:hidden absolute top-[118px] left-0 w-full h-[800px] bg-black text-white text-center items-center justify-between'>
+      <ul className='z-30 flex flex-col font-light md:hidden absolute top-[118px] left-0 w-full h-[800px] bg-black text-white text-center items-center justify-between'>
         {data.map((item) => (
           <li
             key={item.id}
@@ -50,7 +50,7 @@ const Mobileheader = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
                   className="group"
                   onClick={() => handleSubMenuClick(item.name)}
                 >
-                  {item.name} <BsChevronDown className="text-[20px] inline-block right-2" size={10}/>
+                  {item.name} <BsChevronDown className="text-[20px] inline-block" size={10}/>
                   {item.name === 'Letusnotdisturb' &&
                     activeSubMenu === item.name && (
                     <ul className='bg-black top-6 min-w-[250px] p-1 text-right text-white shadow-lg rounded-sm pt-4 submenu active'>
@@ -96,7 +96,7 @@ const Mobileheader = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
             )}
           </li>
         ))}
-        <Link href="/connect" className="md:flex font-bold text-white hover:bg-white hover:text-black rounded py-5 px-2">
+        <Link href="/connect" className="md:flex font-bold text-white hover:bg-white hover:text-black rounded py-5 px-2 mb-[120px]">
                 Connect With Us
         </Link>
       </ul>

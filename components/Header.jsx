@@ -35,8 +35,7 @@ const controlNavbar = () => {
     }
     }, [lastScrollY]);
     return (
-        <header className={`w-full h-[120px] md:h-[80hx] bg-black flex items-center
-    justify-between z-10 sticky top-0 transition-transform duration-300 ${show}`}>
+        <header className={`w-full h-[120px] md:h-[80hx] bg-black flex items-center right-9 justify-end z-10 sticky top-0 transition-transform duration-300 ${show}`}>
         <Wrapper className="h-[60px] flex justify-between items-center">
             <Link href="/">
                 <img
@@ -60,8 +59,11 @@ const controlNavbar = () => {
         /> )}
 
         
-        <div className='flex items-center justify-between text-white'>
-            <Link href="/connect" className="hidden md:flex font-bold text-white hover:bg-white hover:text-black rounded py-5 px-2">
+        <div className='flex items-center md:justify-between text-white'>
+            <Link 
+                href="/connect" 
+                className="hidden md:flex font-normal text-white 
+                hover:bg-white hover:text-black rounded py-5 px-2 md:ml-4">
                 Connect With Us
             </Link>
                 {/* mobile screen */}
@@ -87,5 +89,3 @@ const controlNavbar = () => {
 }
 
 export default Header;
-
-// 'w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] relative cursor-pointer -mr-2 md:hidden'

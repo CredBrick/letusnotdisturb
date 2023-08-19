@@ -38,7 +38,7 @@ const Menu = ({ showCatMenu, setShowCatMenu }) => {
     };
   
     return (
-      <ul className='hidden md:flex gap-8 font-medium text-white'>
+      <ul className='hidden md:flex gap-6 font-medium text-white md:ml-auto'>
         {data.map((item) => (
           <li
             key={item.id}
