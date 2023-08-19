@@ -60,8 +60,8 @@ const controlNavbar = () => {
         /> )}
 
         
-        <div className='flex items-center justify-between text-white'>
-            <Link href="/connect" className="hidden md:flex font-bold text-white hover:bg-white hover:text-black rounded py-5 px-2">
+        <div className='flex items-center md:justify-between text-white'>
+            <Link href="/connect" className="hidden md:flex font-normal text-white hover:bg-white hover:text-black rounded py-5 px-2">
                 Connect With Us
             </Link>
                 {/* mobile screen */}
