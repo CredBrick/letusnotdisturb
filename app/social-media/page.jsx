@@ -11,7 +11,7 @@ const videos = [
     { id : 5, url: "https://www.youtube.com/embed/XD3VHDo3w84?wmode=opaque"},
 ]
 
-const data = [
+const instapostdata = [
     { id : 1, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1639372095078-V2MB6U7P5HFMK64DSOGT/image-asset.jpeg", instaurl: "https://www.instagram.com/p/CXaNcMSPvJ9/"},
     { id : 2, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1639372095078-1WRU8BKVS35RDXM2EY19/image-asset.jpeg", instaurl: "https://www.instagram.com/p/CXaNYyDPQP9/"},
     { id : 3, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1639372095078-V2MB6U7P5HFMK64DSOGT/image-asset.jpeg", instaurl: "https://www.instagram.com/p/CXaNUBqvTTc/"},
@@ -88,7 +88,7 @@ const page = () => {
 
         {/* Instagram Posts*/}
         <div className="mt-8 md:pb-[90px] pb-[40px] grid grid-cols-2 md:grid-cols-4 md:gap-4 gap-4 px-5 md:px-4 cursor-pointer">
-            {data.map((item) => (
+            {instapostdata.map((item) => (
             <Link
                 key={item.id}
                 href={item.instaurl}
