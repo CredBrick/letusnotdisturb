@@ -38,7 +38,7 @@ const page = () => {
                 src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625397253203-DGYA5HVD1OITC000SG4H/social-3408791_1920.jpg?format=2500w"
             />
             <div className="flex items-center justify-center text-center p-4 text-white ">
-                <p className="absolute md:text-4xl text-2xl md:top-[200px] top-[190px] px-8">Explore LetUsNotDisturb Social Media</p>
+                <p className="absolute md:text-4xl text-2xl md:top-[180px] top-[190px] px-8">Explore LetUsNotDisturb Social Media</p>
             </div>
         </div>
         
