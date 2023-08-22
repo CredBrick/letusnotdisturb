@@ -1,4 +1,5 @@
 import React from 'react'
+import { team } from '@/constants/data';
 
 const page = () => {
   return (
@@ -15,16 +16,34 @@ const page = () => {
 
         <div className='flex flex-col items-center justify-center'>
           <div className='md:-mt-10 font-normal'>
-            <p className='md:text-lg md:px-[140px] text-center'>At The LetUsNotDisturb.com, our mission is to try and answer one question: What is community?</p>
+            <p className='md:text-lg md:px-[140px] px-[50px] text-center'>At The LetUsNotDisturb.com, our mission is to try and answer one question: What is community?</p>
             <p className='md:text-lg  md:px-[100px] text-center mt-4'>This simple question guides everything we do. We believe that every event we host, every treat we dish out, every member we accept, takes us one step closer to answering this question. We learn by running mini experiments and from every member that joins our community. Each of our members has a story .We believe that every creator, every member and every brand has its own story- we tell that story.</p>
           </div>
 
-          <div className='md:mt-[80px] '>
-            <h1 className='text-4xl'>Meet Our Community</h1>
+          <div className='md:mt-[80px]'>
+            <h1 className='md:text-4xl text-3xl mt-[80px] mb-[60px]'>Meet Our Community</h1>
           </div>
 
-          <div>
-            
+          <div className='md:mt-[80px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8'>
+            {team.map((team, index) => {
+              return (
+              <div
+                  className='flex flex-col items-center justify-center mb-6'
+                  key={index}>
+                  <img
+                      className="rounded-full w-[275px] md:h-[210px] lg:h-[240px] h-[230px] mb-6" 
+                      src={team.url} 
+                      alt="team members" 
+                  />
+                  <p>
+                    {team.name}
+                  </p>
+                  <p>
+                    {team.role}
+                  </p>
+              </div>
+              );
+              })}
           </div>
         </div>
     </div>
