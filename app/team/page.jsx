@@ -4,6 +4,8 @@ import { team } from '@/constants/data';
 const page = () => {
   return (
     <div className='text-white'>
+
+      {/* banner image */}
         <div>
             <img
                 className="relative object-cover md:w-full bg-center bg-cover w-full md:h-[250px] h-[300px] opacity-60 -top-[90px]"
@@ -15,6 +17,7 @@ const page = () => {
         </div>
 
         <div className='flex flex-col items-center justify-center'>
+      {/* content */}
           <div className='md:-mt-10 font-normal'>
             <p className='md:text-lg md:px-[140px] px-[50px] text-center'>At The LetUsNotDisturb.com, our mission is to try and answer one question: What is community?</p>
             <p className='md:text-lg  md:px-[100px] text-center mt-4'>This simple question guides everything we do. We believe that every event we host, every treat we dish out, every member we accept, takes us one step closer to answering this question. We learn by running mini experiments and from every member that joins our community. Each of our members has a story .We believe that every creator, every member and every brand has its own story- we tell that story.</p>
@@ -24,6 +27,7 @@ const page = () => {
             <h1 className='md:text-4xl text-3xl mt-[80px] mb-[60px]'>Meet Our Community</h1>
           </div>
 
+        {/* team members */}
           <div className='md:mt-[80px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8'>
             {team.map((team, index) => {
               return (
