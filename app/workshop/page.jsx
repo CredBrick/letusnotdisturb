@@ -61,17 +61,17 @@ const page = () => {
                 hover:bg-white hover:text-black py-5 px-2">
                 Register Now
             </Link>
-            
-            <div>
+        </div>
+            <div className=" relative mt-9">
                 <img
-                    className="relative object-cover md:w-full bg-center bg-cover md:min-w-[350px] min-w-[350px] md:h-[450px] h-[400px] opacity-60"
+                    className="inset-0 min-w-[100%] h-[300px] mb-10"
                     src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625756902416-7I9KP8E7OIU8KUBD62GW/create-3026190_1920.jpg?format=2500w"
+                    alt="could not load the image"
                 />
-                <div className="flex items-center justify-center text-center p-4 text-white">
-                    <p className="absolute lg:text-4xl md:text-3xl text-2xl px-10 md:px-[180px] lg:px-[230px] font-light ">hello</p>
+                <div className="absolute inset-0 flex items-center justify-center text-center text-white">
+                    <p className="md:text-4xl text-3xl">Our E-Network</p>
                 </div>
             </div>
-        </div>
     </div>
   )
 }
