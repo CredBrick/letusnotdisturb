@@ -23,21 +23,20 @@ const ecc = () => {
         <div className="md:text-lg">
           <p className="py-3">Thousands of crowd, hundreds of millennial, one speaker with an agenda to create design awareness at the school and college level in the Indian education system.</p>
           <p className="py-3">This was just the trailer! A Workshop for Career Fest at Jyoti Nivas College by Ignite India.</p>
-          {/* <p className="py-3"></p> */}
         </div>
 
         {/* youtube video */}
-        <div className="w-full lg:max-w-[100%] sm:max-w-[760px] md:text-lg">
+        <div className="md:text-lg">
+          <div className='flex items-center justify-center '>
+
           <iframe
-            width="100%"
-            height="315" 
             src="https://www.youtube.com/embed/6GUVFv6qwu0?wmode=opaque"
             title="Embedded Content"
-            frameBorder="0"
             allowFullScreen
-            className="md:h-[380px] lg:w-[1200px] lg:h-[700px]"
+            className="sm:max-w-[760px] md:h-[380px] lg:min-w-[950px] lg:h-[500px] md:min-w-[700px]"
             >
           </iframe>
+          </div>
           <div className='mt-4 w-full md:text-lg'>
           <p className="py-3">We are born creative, as a child we ask questions and as an adult we answer the questions, because it is the creativity required to ask a question and intelligence to answer. With time and conditioning we tend to have the fear of creative judgement and lose the creative confidence.</p>
           <p className="py-3">Well, I am elated to share my part of learning and contribution while taking a counselling session for the students in the event. The design event jointly organised by Ignite India and Rainush Media Labs powered by Pahal School of Design.</p>
@@ -53,7 +52,7 @@ const ecc = () => {
               className='mt-8 md:text-lg md:clear-none '>
               Why about creativity? Because innovation can be both fun and rewarding. As we look at the sweep of our life and start to think of a 
               legacy that survives beyond it, giving others the opportunity to live up to their creative capacity seems like a worthy purpose. In the 
-              last six years, we’ve helped countless people nurture their creativity and put it to valuable use. </p>
+              last six years, we've helped countless people nurture their creativity and put it to valuable use. </p>
               
           <img 
               className="mt-6 lg:relative lg:mt-10 float-left w-[400px] md:w-[750px] lg:w-[600px] h-[250px] md:h-[550px] lg:h-[400px] lg:px-6"
@@ -67,7 +66,7 @@ const ecc = () => {
               awhile, they will end up doing amazing things. They come up with breakthrough
               ideas or suggestions, and work creatively with a team to develop something 
               truly innovative. They surprise themselves with the realisation that they 
-              are a lot more creative than they had thought. We don’t have to generate 
+              are a lot more creative than they had thought. We don't have to generate 
               creativity from scratch. We just need to help people rediscover what they 
               already have, the capacity to imagine or build upon new-to-the world ideas.' -Kelley
               </p>
