@@ -79,6 +79,10 @@ const Mobileheader = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
                           <Link
                             href={subItem.url}
                             className='h-12 flex items-center justify-center hover:bg-black/[0.03] rounded-md px-2 submenu-content'
+                            onClick={() => {
+                              setShowCatMenu(false); 
+                              setMobileMenu(false); 
+                            }}
                           >
                             {subItem.name}
                           </Link>
