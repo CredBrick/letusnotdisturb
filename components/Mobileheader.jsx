@@ -6,7 +6,7 @@ import { useState } from 'react';
 import '../styles/globals.css'
 
 const data = [
-  { id: 1, name: 'Lehza.in', url: 'https://letusnotdisturb.com/lehza-in' },
+  { id: 1, name: 'Lehza.in', url: '/lehza-in' },
   { id: 2, name: 'Letusnotdisturb', subMenu: true },
   { id: 3, name: 'Blogs', url: '/blog' },
   { id: 4, name: 'Team', url: '/team' },
