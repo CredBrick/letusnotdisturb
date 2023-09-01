@@ -2,6 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import { MdLiveTv } from 'react-icons/md'
 import { GoPeople } from 'react-icons/go'
+import { PiSortAscendingLight } from 'react-icons/pi'
+import { IoTicketOutline } from 'react-icons/io5'
+
 
 const page = () => {
   return (
@@ -57,6 +60,44 @@ const page = () => {
                 <GoPeople 
                     className='w-[50px] h-[50px] md:w-[100px] md:h-[100px]'/>
             </Link>
+        </div>
+
+        <div className='grid grid-col-1 md:grid-cols-2 lg:gap-4 mt-[60px] md:mt-[70px]'>
+            <img 
+                src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623601578272-R3WWKMCQLZLHW5E8E630/cx.jpg?format=1000w" 
+                alt="Could not load the image"
+                className='px-10 lg:px-0 lg:h-[600px] lg:w-[500px]' 
+                />
+            <div className='px-10 lg:px-0 mt-10'>
+                <p className='text-2xl mb-10'>
+                    Bring your people together no matter where they are
+                </p>
+                <p className='text-lg'>
+                    Interested in bringing live chat to your team, friends, or community? <br/>
+                    No matter the occasion, we can produce your event on air. <br/>
+                    We are all ears to hear stories from our guests, but we believe in talking more about aspirations than achievements. <br/>
+                </p>
+            </div>
+        </div>
+
+        <Link
+            href='/contact'
+            target="_blank" rel="noopener noreferrer"
+            className='flex items-center justify-center text-center'>
+            <button className='hover:bg-white hover:text-black font-normal px-4 py-4 mt-10'>Book Your Own Concert</button>
+        </Link>
+
+        <div>
+            <h1>How we do it in Lehza.in</h1>
+            <div className='grid md:grid-cols-3'>
+                <div>
+                    <PiSortAscendingLight className='w-[50px] h-[50px]'/>
+                </div>
+                <div>
+                    <IoTicketOutline className='w-[50px] h-[50px]'/>
+                </div>
+                <div></div>
+            </div>
         </div>
 
 
