@@ -2,8 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import { MdLiveTv } from 'react-icons/md'
 import { GoPeople } from 'react-icons/go'
-import { PiSortAscendingLight } from 'react-icons/pi'
+import { PiSortAscendingLight, PiMagicWand } from 'react-icons/pi'
 import { IoTicketOutline } from 'react-icons/io5'
+import { GrMagic } from 'react-icons/gr'
 
 
 const page = () => {
@@ -62,13 +63,13 @@ const page = () => {
             </Link>
         </div>
 
-        <div className='grid grid-col-1 md:grid-cols-2 lg:gap-4 mt-[60px] md:mt-[70px]'>
+        <div className='flex flex-col md:flex-row lg:gap-2 mt-[60px] md:mt-[70px]'>
             <img 
                 src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623601578272-R3WWKMCQLZLHW5E8E630/cx.jpg?format=1000w" 
                 alt="Could not load the image"
-                className='px-10 lg:px-0 lg:h-[600px] lg:w-[500px]' 
+                className='px-10 lg:px-2 lg:ml-[80px] md:h-[600px] md:w-[500px] lg:h-[700px] lg:w-[500px]' 
                 />
-            <div className='px-10 lg:px-0 mt-10'>
+            <div className='px-4 lg:px-0 mt-[40px] lg:mt-[90px] ml-6 lg:ml-[100px]'>
                 <p className='text-2xl mb-10'>
                     Bring your people together no matter where they are
                 </p>
@@ -77,27 +78,54 @@ const page = () => {
                     No matter the occasion, we can produce your event on air. <br/>
                     We are all ears to hear stories from our guests, but we believe in talking more about aspirations than achievements. <br/>
                 </p>
+                <Link
+                    href='/contact'
+                    target="_blank" rel="noopener noreferrer"
+                    className='flex items-center justify-center text-center'>
+                    <button className='hover:bg-white hover:text-black font-normal px-4 py-4 mt-10'>Book Your Own Concert</button>
+                </Link>
             </div>
         </div>
 
-        <Link
-            href='/contact'
-            target="_blank" rel="noopener noreferrer"
-            className='flex items-center justify-center text-center'>
-            <button className='hover:bg-white hover:text-black font-normal px-4 py-4 mt-10'>Book Your Own Concert</button>
-        </Link>
+        <div className='mt-[60px] md:mt-[70px]'>
+            <h1 className='text-4xl text-center mb-[40px] md:mb-[80px]'>How we do it in Lehza.in</h1>
+            <div className='text-white grid grid-cols-1 md:grid-cols-3  items-center justify-between px-6'>
+                <div className='flex flex-col items-center'>
+                    <PiMagicWand className='w-[70px] h-[100px]'/>
+                    <h1 className='mt-4 mb-4 text-xl'>You Set The Vibe</h1>
+                    <p className='text-lg text-center px-6 mb-5'>Tell us about your event and favorite topic. We curate the perfect lineup to inspire the audience.</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <PiSortAscendingLight className='w-[70px] h-[100px]'/>
+                    <h1 className='mt-4 mb-4 text-xl'>We sort the show</h1>
+                    <p className='text-lg text-center px-6 mb-5'>We take care of everything from booking to on-air, so discovering emerging artists has never been easier.</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <IoTicketOutline className='w-[70px] h-[100px]'/>
+                    <h1 className='mt-4 mb-5 text-xl'>Enjoy the gig</h1>
+                    <p className='text-lg text-center px-6 mb-5'>This isn't your average virtual event. Our Team creates the atmosphere so everyone you invite can simply enjoy the show.</p>
+                </div>
+            </div>
+        </div>
+
+        <div className='mt-[60px] md:mt-[70px]'>
+            <img 
+                src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623601004854-SUECDOBOOT37T0BESXJH/ticket-2974645_1920.jpg?format=1500w" 
+                alt="Could not load the image" 
+                className='w-full h-[300px] object-cover'/>
+            <div className='mt-10 flex flex-col items-center justify-center text-center'>
+                <h1 className='text-3xl lg:text-5xl px-6'>Contact Us Today To Learn More</h1>
+                <Link
+                    href='/contact'
+                    target="_blank" rel="noopener noreferrer"
+                    className='text-center'>
+                    <button className='hover:bg-white hover:text-black font-normal text-lg px-4 py-4 mt-8'>Contact Us</button>
+                </Link>
+            </div>
+        </div>
 
         <div>
-            <h1>How we do it in Lehza.in</h1>
-            <div className='grid md:grid-cols-3'>
-                <div>
-                    <PiSortAscendingLight className='w-[50px] h-[50px]'/>
-                </div>
-                <div>
-                    <IoTicketOutline className='w-[50px] h-[50px]'/>
-                </div>
-                <div></div>
-            </div>
+            
         </div>
 
 
