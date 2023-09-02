@@ -46,8 +46,29 @@ const worshopdata = [
     },
 ]
 
+const lehzainstaposts = [
+    { id : 1, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1624017887686-YAZSXWFQ02CYWPMOJD49/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CQQmr-bJuGh/"},
+    { id : 2, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598106534-XT4HRJ9CDDTWVOAESBWE/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CQDtkl5pfi-/"},
+    { id : 3, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598106914-SPKWMWGEZY966JM321DQ/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CQBXhM2pcp1/"},
+    { id : 4, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598107355-H5QR5NBO442CL0P757IW/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CP-rEFWpGub/"},
+    { id : 5, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598107663-M0Z9DGEQUN3Q9QJ6J1IH/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CP8EDx-p1Y_/"},
+    { id : 6, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598108159-VQIJ77FSXQXCRYG2HGER/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CPyQpl4Jczw/"},
+    { id : 7, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598108561-LDSPXT4SASCE0PZ413LA/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CPwg3adJGCE/"},
+    { id : 8, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598108901-AGNJD3MJUQFXEN7X4IME/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CPKCE7qpCO_/"},
+    { id : 9, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598109259-GLG8WXHLETWB9D1V0VPP/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CO6i8lsJKcP/"},
+    { id : 10, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598109621-YC1Y5BVBE7OO2MDNJ2VC/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/COkt7AOprMM/"},
+    { id : 11, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598110060-BBR1WZ5C03V0EFSLCZPQ/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/COh_kgqJuLL/"},
+    { id : 12, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598110501-L0SIHEYODXWA8S08XC45/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/COVkjZXJoTU/"},
+    { id : 13, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598110881-GM6RW0NSWRU8A86UZADJ/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/COTxDlnpuU8/"},
+    { id : 14, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598111248-MOYIJTQ3X6QP1MOX27CL/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CN0ATGGJTJa/"},
+    { id : 15, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598111610-OYLTMBKGM9M0JL4HJHV3/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CNwh-k1J4kl/"},
+    { id : 16, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623598112008-LDWOFFHQCVO54SG4437Q/image-asset.jpeg?format=750w", instaurl: "https://www.instagram.com/p/CNulpxmpFxg/"},
+
+]
+
 export {
     team,
     worshopdata,
     instapostdata,
+    lehzainstaposts,
 }
