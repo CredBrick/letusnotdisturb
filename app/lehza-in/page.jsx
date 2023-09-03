@@ -30,19 +30,19 @@ const page = () => {
                 flex flex-col md:flex-row items-center justify-top md:justify-between md:px-[120px] 
                 text-black text-md md:text-xl font-medium'>
                 <Link 
-                    href='/lehza-our-story'
+                    href='/lehza-in/lehza-our-story'
                     target="_blank" rel="noopener noreferrer"
                     className='bg-white hover:opacity-70 py-2 px-4 md:py-4 md:px-6'>
                     Story
                 </Link>
                 <Link 
-                    href='/book-lehza-virtual-concert'
+                    href='/lehza-in/book-lehza-virtual-concert'
                     target="_blank" rel="noopener noreferrer"
                     className='bg-white hover:opacity-70 py-2 px-4 md:py-4 md:px-6'>
                     Book An Event
                 </Link>
                 <Link 
-                    href='/lehza-artist'
+                    href='/lehza-in/lehza-artist'
                     target="_blank" rel="noopener noreferrer"
                     className='bg-white hover:opacity-70 py-2 px-4 md:py-4 md:px-6'>
                     Artists
