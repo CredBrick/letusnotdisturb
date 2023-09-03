@@ -31,16 +31,19 @@ const page = () => {
                 text-black text-md md:text-xl font-medium'>
                 <Link 
                     href='/lehza-our-story'
+                    target="_blank" rel="noopener noreferrer"
                     className='bg-white hover:opacity-70 py-2 px-4 md:py-4 md:px-6'>
                     Story
                 </Link>
                 <Link 
                     href='/book-lehza-virtual-concert'
+                    target="_blank" rel="noopener noreferrer"
                     className='bg-white hover:opacity-70 py-2 px-4 md:py-4 md:px-6'>
                     Book An Event
                 </Link>
                 <Link 
                     href='/lehza-artist'
+                    target="_blank" rel="noopener noreferrer"
                     className='bg-white hover:opacity-70 py-2 px-4 md:py-4 md:px-6'>
                     Artists
                 </Link>
