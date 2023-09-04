@@ -20,8 +20,8 @@ const subMenudata1 = [
 ]
 
 const subMenudata2 = [
-    { id : 1, name: "About The Founder", url: "/about-founder"},
-    { id : 2, name: "Prashant's Desk", url: "/prashants-desk"},
+    { id : 1, name: "About The Founder", url: "/discover/about-founder"},
+    { id : 2, name: "Prashant's Desk", url: "/discover/prashants-desk"},
 ]
 
 const Menu = ({ showCatMenu, setShowCatMenu }) => {
