@@ -4,14 +4,18 @@ const page = () => {
   return (
     <div className='text-white'>
       {/* first image */}
-        <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-center'>
-            <div>
+        <div className='flex flex-col md:flex-row mt-10'>
+
+          {/* image div */}
+            <div className='basis-1/2'>
               <img
-                className='sticky mt-10 md:mb-[830px] lg:mb-0 px-8 lg:w-[800px] lg:h-[700px] ' 
+                className='mt-[50px] px-8 lg:w-[800px] lg:h-[700px] ' 
                 src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625391698748-COG94NU62KSABMN3WYT9/6.jpg?format=1500w" 
                 alt="could not load the image" />
             </div>
-            <div>
+
+          {/* paragraph div */}
+            <div className='basis-1/2'>
               <h1 className='text-2xl md:text-4xl lg:text-6xl font-normal mb-10 mt-10 px-4 md:leading-[50px] lg::leading-[80px]'>Prashant Priyadarshi - A great source of inspiration to young and evolving minds!</h1>
               <p className='text-md font-normal md:text-lg leading-relaxed text-justify px-4'>When you do something in life, don't just do it for yourself. Let others learn from your experiences and experience the joy of inspiring others. This is the idea behind all the activities that Prashant Priyadarshi takes up in his life. The boy from Sahibganj in Jharkhand did not let his small town limit his big dreams. Prashant very proudly speaks of the two good things about his hometown, - it is located between the river Ganges on one side and mountains on the other with the most pleasant weather and St Xavier's school run by the Jesuit Missionary Society of India.
                 It was the best school in a town with a large percentage of students coming from different parts of the world, and living in the hostel and a comparatively smaller group of students who enrolled as day scholars.</p>
@@ -22,8 +26,10 @@ const page = () => {
         </div>
 
       {/* second image */}
-        <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-center'>
-            <div>
+        <div className='flex flex-col md:flex-row mt-10'>
+
+          {/* paragraph div */}
+            <div className='basis-1/2'>
               <h1 className='text-lg font-normal mb-10 mt-10 px-5 ml-2 md:leading-[50px] lg::leading-[80px]'>Prashant's Hidden Dreams</h1>
               <p className='text-md font-normal md:text-lg leading-relaxed text-justify px-5 ml-2'>
                   Now it was Prashant's turn to choose a career and his parents, like most others, wanted him to be an engineer. But Prashant, who was always an active participant in stage plays, poetry, essay writing competitions, and other activities, had different dreams. He told his father that he wants to be a journalist. With limited knowledge about journalism and its prospects, his father didn't approve of the idea. Prashant reluctantly agreed to his father's suggestion and took up sciences in his 11th and 12th grade in Delhi Public School, which is known to be one of the best of its time.
@@ -35,23 +41,29 @@ const page = () => {
                   </span>
               </p>
             </div>
-            <div>
+
+          {/* image div */}
+            <div className='basis-1/2'>
                 <img 
                   src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625395247309-EROCKTDVOJV42273NHM3/bv.jpg?format=1000w" 
                   alt="could not load the image"
-                  className='sticky mt-10 px-5 md:mb-[800px] lg:-mb-[60px] lg:ml-6 lg:w-[700px] lg:h-[550px] ' />
+                  className='mt-6 md:mt-[140px] px-5 md:mb-[800px] lg:-mb-[60px] lg:ml-6 lg:w-[700px] lg:h-[550px] ' />
             </div>
         </div>
 
       {/* third image */}
-        <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-center'>
-            <div>
+        <div className='flex flex-col md:flex-row mt-10'>
+
+          {/* image div */}
+            <div className='basis-1/2'>
                 <img 
                   src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625395377497-9PMUA7SG6RM7WTWJ9QIA/image9min.png" 
                   alt="could not load the image"
-                  className='sticky mt-10 px-5 md:mb-[720px] lg:-mb-[60px] lg:ml-6 lg:w-[700px] lg:h-[550px] ' />
+                  className='md:mt-[140px] px-5 lg:ml-6 lg:w-[700px] lg:h-[530px] ' />
             </div>
-            <div>
+
+          {/* paragraph div */}
+            <div className='basis-1/2'>
               <h1 className='text-lg font-normal mb-10 mt-10 px-5 ml-2 md:leading-[50px] lg::leading-[80px]'>Swimming Against the Current</h1>
               <p className='text-md font-normal md:text-lg leading-relaxed text-justify px-5 ml-2 mb-4'>
                   Prashant fought all the taboos and emerged victorious when he secured a place for himself in NIFT. When this became the biggest news in town and was circulated through the newspaper, Prashant was happy, but the incident made him wonder why someone getting into a professional college was such a big deal. He then realized that all the special attention was because it was very rare for someone to choose fashion as his career, which was not very popular among the general public. This was the moment when Prashant decided that he must educate people about a variety of professions that can be opted for apart from the mainstream options.
@@ -66,8 +78,10 @@ const page = () => {
         </div>
 
       {/* fourth image */}
-        <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-center'>
-            <div>
+        <div className='flex flex-col md:flex-row mt-10'>
+
+          {/* paragraph div */}
+            <div className='basis-1/2'>
               <h1 className='text-lg font-normal mb-10 mt-10 px-5 ml-2 md:leading-[50px] lg::leading-[80px]'>The Philanthropist in Him</h1>
               <p className='text-md font-normal md:text-lg leading-relaxed text-justify px-5 ml-2'>
                   They started counseling two students sometimes in the garden and at other times in the amphitheater. The number of students kept increasing. By the time Prashant was in the fourth year of college, he and his friend were coaching five students and providing them the much-needed career guidance. After Prashant finished college, he got a job, but he continued to volunteer to help his friend who took the counseling provided to the next level. By that time they had as many as 25 students looking forward to being guided by them and by now, Prashant had counseled more than 10000 students through various Workshops, Conferences, and Seminars in the last six years.
@@ -93,11 +107,13 @@ const page = () => {
                   Being an ardent fan of poetry, Prashant created a platform called Lehza. It's a place to express those emotions that cannot be displayed through regular communication. Another striking feature of Lehza is that it is a place where people talk not only about achievements but of aspirations as well. It's a place that talks of achievement as a never-ending journey and not a destination. This is the reason why a large number of people connected with him within just a couple of months of starting Lehza. Through Lehza, Prashant wants to imply that inspiration does not necessarily come from celebrities all the time. People can be inspired by someone as common as you and me.
               </p>
             </div>
-            <div className='mt-10 px-5 md:-mt-[2200px] lg:-mb-[1500px] lg:ml-6 lg:w-[700px] lg:h-[550px] md:w-[400px] md:h-[350px] ' >
+
+          {/* image div */} 
+            <div className='md:mt-[140px] px-5 lg:ml-6 lg:w-[700px] lg:h-[550px] md:w-[400px] md:h-[350px] ' >
                 <img 
                   src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625395561641-1OGHV4DJNZ4LP17NTFEV/66.jpg?format=1000w" 
                   alt="could not load the image"
-                  className='mb-4'
+                  className='mt-6 md:mt-0 mb-6'
                   />
                   <img 
                   src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625396469145-UODG8QPS9E1KSAPOVENE/208907439_4683883948289656_5128737358181863553_n.jpg?format=1000w" 
@@ -106,14 +122,18 @@ const page = () => {
         </div>
 
       {/* fifth image */}
-      <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-center'>
+      <div className='flex flex-col md:flex-row mt-10'>
+
+          {/* image div */}
             <div>
                 <img 
                   src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625396434995-BRO9BVLAEV1ZZ4K0BZNL/207037457_4683934334951284_1448958745409155780_n.jpg?format=750w" 
                   alt="could not load the image"
-                  className='mt-10 px-5 md:-mt-[1100px] lg:-mb-[60px] lg:ml-6 lg:w-[700px] lg:h-[550px] ' />
+                  className='basis-1/2 md:mt-[140px] lg:mt-[180px] px-5 lg:mb-[460px] lg:ml-6 lg:w-[700px] lg:h-[550px] ' />
             </div>
-            <div>
+
+          {/* paragraph div */}
+            <div className='basis-1/2'>
               <h1 className='text-lg font-normal mb-10 mt-10 px-5 ml-2 md:leading-[50px] lg:leading-[80px]'>A Seeker of Opportunities</h1>
               <p className='text-md font-normal md:text-lg leading-relaxed text-justify px-5 ml-2 mb-4'>
                   Prashant fought all the taboos and emerged victorious when he secured a place for himself in NIFT. When this became the biggest news in town and was circulated through the newspaper, Prashant was happy, but the incident made him wonder why someone getting into a professional college was such a big deal. He then realized that all the special attention was because it was very rare for someone to choose fashion as his career, which was not very popular among the general public. This was the moment when Prashant decided that he must educate people about a variety of professions that can be opted for apart from the mainstream options.
@@ -136,8 +156,6 @@ const page = () => {
               </p>
             </div>
         </div>
-
-
     </div>
   )
 }
