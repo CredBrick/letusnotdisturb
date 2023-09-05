@@ -5,6 +5,7 @@ import { RiQuestionAnswerLine } from 'react-icons/ri'
 import { PiSpeakerHighBold, PiChalkboardTeacherDuotone } from 'react-icons/pi'
 import {IoIosPeople} from 'react-icons/io';
 import {GiArchiveRegister} from 'react-icons/gi';
+import { artist } from '@/constants/data';
 
 const page = () => {
   return (
@@ -138,6 +139,81 @@ const page = () => {
           <p className="mt-7 text-center text-white text-4xl">10,000+</p>
           <p className="mt-2 text-center text-white text-4xl">Community Members</p>
         </div>
+      </div>
+
+      {/* Bringing Lehza.in To You section */}
+      <div className='mt-6 md:mt-10 lg:mt-[100px] font-light text-center'>
+        <h1 className='text-4xl mb-8'>
+          Bringing Lehza.in To You
+        </h1>
+        <p className='text-lg px-4 md:px-[120px] lg:px-[250px]'>
+          As we work toward bringing in-person shows safely back to your
+          local community, we're more committed than ever to the idea that 
+          live session brings people together. Join independent artists around 
+          the world for intimate livestream performances in the Lehza.in streaming room!
+        </p>
+      </div>
+
+      {/* different sections */}
+      <div className='mt-10 lg:mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
+        {artist.map((artist, index) => {
+          return (
+            <div className='relative' key={index}>
+            <Link
+              href={artist.page}>
+                <img 
+                  src={artist.url} 
+                  alt="could not load the image"
+                  className='md:w-[350px] md:h-[140px] lg:w-[450px] lg:h-[240px]' />
+                <div className='absolute inset-0 lg:right-8 flex items-center justify-center text-center text-white transition-opacity opacity-100 hover:opacity-0'>
+                  <p className='text-2xl lg:text-4xl lg:px-[60px]'>
+                    {artist.title}
+                  </p>
+                </div>
+            </Link>
+          </div>
+          )
+        })}
+      </div>
+
+      <div className='flex flex-col items-center justify-center text-center'>
+        <p className='text-center text-2xl md:text-4xl lg:text-5xl mt-10 mb-4 md:mb-10'>
+            <a href="https://www.instagram.com/lehza.in/" 
+              target='_blank' 
+              rel="noopener noreferrer" 
+              className='underline px-2'>
+              Lehza.in
+            </a>
+            In Session
+          </p>
+
+          <iframe 
+            src="https://www.youtube.com/embed/Zok838VVMWk?si=YbUir6n3nhFvJuXl" 
+            title="YouTube video player"
+            className='p-6 w-full h-full md:w-[600px] md:h-[400px] lg:w-[900px] lg:h-[550px]'
+            >
+          </iframe>
+      </div>
+
+      <div className='relative mt-10'>
+        <img 
+          src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625338671022-RZH2ZZRI4THK20AO86VI/hands-5216585_1920.jpg" 
+          alt="could not load the image"
+          className='w-full h-[300px] object-cover' />
+          
+
+          <div className='absolute inset-0 flex flex-col text-center'>
+            <h1 className='text-2xl'>Join The Community</h1>
+            <p className='text-lg px-10 '>Register in one of our courses to become a part of a vibrant community of artists - writers, poets, musicians, painters, performers and what not!</p>
+            <form dir="ltr" className='px-4'>
+              <input 
+                type="text" 
+                placeholder='Email Address' 
+                className='w-[400px] h-[60px] bg-white border-10 border-white 
+                text-black text-xl outline-none'/>
+            </form>
+            <button>Sign up</button>
+          </div>
       </div>
     </div>
   )
