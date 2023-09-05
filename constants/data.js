@@ -66,8 +66,20 @@ const lehzainstaposts = [
 
 ]
 
+const artist = [
+    {id: 1, title:  'Cinema', page: '/lehza-in/lehza-artist/cinema', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625421742981-5J26JXTO7LYKT2DOBRS2/cinema-4213751_1920.jpg?format=1500w'},
+    {id: 2, title:  'Fashion', page: '/lehza-in/lehza-artist/fashion', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625290587989-9OL60N3WWTC7V0JL92CR/high-heels-1846436_1920.jpg?format=1500w'},
+    {id: 3, title:  'Mental Health & Lifestyle', page: '/lehza-in/lehza-artist/mental-health-and-lifestyle', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625290687971-HPBEIO2PVWHIDBKEX4PE/heart-1077724_1920.jpg?format=1500w'},
+    {id: 4, title:  'Enterpreneurship', page: '/lehza-in/lehza-artist/enterpreneurship', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625290818703-NJHWBD2O80DRVFXV40NU/lean-startup-2230822_1920.jpg?format=1500w'},
+    {id: 5, title:  'Art', page: '/lehza-in/lehza-artist/art', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625290896208-COA787NHFQJLFOEIMEJY/brushes-3129361_1920.jpg?format=1500w'},
+    {id: 6, title:  'Spoken Word Artist', page: '/lehza-in/lehza-artist/spoken-word-artist', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625292175172-IO27K7775X1PC71OUOPM/microphone-3989881_1920.jpg?format=1500w'},
+    {id: 7, title:  'Author', page: '/lehza-in/lehza-artist/author', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625385223315-VTARG0SHJPKEW6AC77W4/desk-1869579_1920.jpg?format=1500w'},
+    {id: 8, title:  'Social Activists', page: '/lehza-in/lehza-artist/social-activists', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625551203629-KX6WD7UQJWJ58H0KJJX8/demonstration-4193109_1920.jpg?format=1500w'},
+]
+
 export {
     team,
+    artist,
     worshopdata,
     instapostdata,
     lehzainstaposts,
