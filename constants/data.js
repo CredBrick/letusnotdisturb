@@ -77,9 +77,24 @@ const artist = [
     {id: 8, title:  'Social Activists', page: '/lehza-in/lehza-artist/social-activists', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625551203629-KX6WD7UQJWJ58H0KJJX8/demonstration-4193109_1920.jpg?format=1500w'},
 ]
 
+const cinema = [ 
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4fe79da1-c2c4-4fcf-b350-5a240e7ab025/sandip%26prashant.png?format=500w', url: 'https://www.instagram.com/p/CLLtVFQHmqD/?utm_source=ig_web_copy_link'},
+    {id: 2, img: '', url: 'https://www.instagram.com/tv/CMH8CZFFCpI/?utm_source=ig_web_copy_link'},
+    {id: 3, img: '', url: ''},
+    {id: 4, img: '', url: ''},
+    {id: 5, img: '', url: ''},
+    {id: 6, img: '', url: ''},
+    {id: 7, img: '', url: ''},
+    {id: 8, img: '', url: ''},
+    {id: 9, img: '', url: ''},
+    {id: 10, img: '', url: ''},
+    {id: 11, img: '', url: ''},
+    {id: 12, img: '', url: ''}
+]
 export {
     team,
     artist,
+    cinema,
     worshopdata,
     instapostdata,
     lehzainstaposts,
