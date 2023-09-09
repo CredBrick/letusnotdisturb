@@ -199,20 +199,27 @@ const page = () => {
         <img 
           src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625338671022-RZH2ZZRI4THK20AO86VI/hands-5216585_1920.jpg" 
           alt="could not load the image"
-          className='w-full h-[300px] object-cover' />
+          className='w-full h-[350px] object-cover' />
           
 
           <div className='absolute inset-0 flex flex-col text-center'>
-            <h1 className='text-2xl'>Join The Community</h1>
-            <p className='text-lg px-10 '>Register in one of our courses to become a part of a vibrant community of artists - writers, poets, musicians, painters, performers and what not!</p>
+            <h1 className='text-2xl mt-10'>Join The Community</h1>
+            <p className='text-lg px-10 mt-10'>Register in one of our courses to become a part of a vibrant community of artists - writers, poets, musicians, painters, performers and what not!</p>
             <form dir="ltr" className='px-4'>
               <input 
                 type="text" 
                 placeholder='Email Address' 
                 className='w-[400px] h-[60px] bg-white border-10 border-white 
-                text-black text-xl outline-none'/>
+                text-black text-xl outline-none mt-6'/>
             </form>
-            <button>Sign up</button>
+            <div className='mt-8'>
+              <Link 
+                  href='/contact'
+                  target="_blank" rel="noopener noreferrer"
+                  className='hover:bg-white hover:text-black py-2 px-4 md:py-4 md:px-6'>
+                  Sign Up
+              </Link>
+            </div>
           </div>
       </div>
     </div>
