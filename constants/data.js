@@ -79,18 +79,19 @@ const artist = [
 
 const cinema = [ 
     {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4fe79da1-c2c4-4fcf-b350-5a240e7ab025/sandip%26prashant.png?format=500w', url: 'https://www.instagram.com/p/CLLtVFQHmqD/?utm_source=ig_web_copy_link'},
-    {id: 2, img: '', url: 'https://www.instagram.com/tv/CMH8CZFFCpI/?utm_source=ig_web_copy_link'},
-    {id: 3, img: '', url: ''},
-    {id: 4, img: '', url: ''},
-    {id: 5, img: '', url: ''},
-    {id: 6, img: '', url: ''},
-    {id: 7, img: '', url: ''},
-    {id: 8, img: '', url: ''},
-    {id: 9, img: '', url: ''},
-    {id: 10, img: '', url: ''},
-    {id: 11, img: '', url: ''},
-    {id: 12, img: '', url: ''}
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/13cf9201-3f19-4ae7-8319-db23d8a60775/dilkush%26prashant.png', url: 'https://www.instagram.com/tv/CMH8CZFFCpI/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/065c270e-b919-453e-b13f-ccab943e96e1/ronak%26prashant.png', url: '/lehza-artist/cinema'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/994cf064-edae-4091-9f49-0cdbaad27cd3/nithu%26prashant.png', url: '/lehza-artist/cinema'},
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/7bfab8f1-6ec4-4443-8556-4894ead49593/nizamuddin%26prashant.png', url: '/lehza-artist/cinema'},
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4387753e-412a-4513-91ce-4614d30ed836/bijou%26prashant.png', url: '/lehza-artist/cinema'},
+    {id: 7, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/2844790c-8897-4c79-b271-15162fa340cc/abhi+raman.png', url: 'https://www.instagram.com/tv/CFpLpwiJ6OV/?utm_source=ig_web_copy_link'},
+    {id: 8, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/15694aa9-5f11-4410-9713-c9328fce7b2b/rapper+mahi.png', url: 'https://www.instagram.com/tv/CFmi9Aqp0ek/?utm_source=ig_web_copy_link'},
+    {id: 9, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/84f684c6-1e92-4dcc-8d9c-102409fa6172/geetika%26prashant.png', url: '/lehza-artist/cinema'},
+    {id: 10, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e9d4c66a-de20-4ff3-805f-f44b426d999a/swaralipi%26prashant.png', url: 'https://www.instagram.com/p/CLjQ6UXHtZE/?utm_source=ig_web_copy_link'},
+    {id: 11, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/59015ee7-d1e8-449d-8f7b-4af729bda020/abhay%26prashant.png', url: "https://www.instagram.com/tv/CLj0xfcHHig/?utm_source=ig_web_copy_link"},
+    {id: 12, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/3f19df87-20d0-4297-8973-a050c2436501/mehak.png', url: 'https://www.instagram.com/p/CLjQ6UXHtZE/?utm_source=ig_web_copy_link'}
 ]
+
 export {
     team,
     artist,
