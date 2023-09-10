@@ -74,7 +74,6 @@ const page = () => {
               className="md:px-1 md:py-1 p-1"
               size={30}/>
           </Link>
-          
       </Wrapper>
     </div>
   )

@@ -176,6 +176,7 @@ const page = () => {
         })}
       </div>
 
+      {/* youtube video */}
       <div className='flex flex-col items-center justify-center text-center'>
         <p className='text-center text-2xl md:text-4xl lg:text-5xl mt-10 mb-4 md:mb-10'>
             <a href="https://www.instagram.com/lehza.in/" 
@@ -194,7 +195,8 @@ const page = () => {
             >
           </iframe>
       </div>
-
+        
+      {/* form */}
       <div className='relative mt-10'>
         <img 
           src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625338671022-RZH2ZZRI4THK20AO86VI/hands-5216585_1920.jpg" 
