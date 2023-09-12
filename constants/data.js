@@ -92,10 +92,22 @@ const cinema = [
     {id: 12, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/3f19df87-20d0-4297-8973-a050c2436501/mehak.png', url: 'https://www.instagram.com/p/CLjQ6UXHtZE/?utm_source=ig_web_copy_link'}
 ]
 
+const fashion = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/b8cb41e3-8d12-47ff-86f7-ad4c66738056/rohan.png', url: 'https://www.instagram.com/p/CE_U7k9h5ID/?utm_source=ig_web_copy_link' },
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1ef74544-8776-49be-a7ad-517cab0975be/bhavna%26prashant+%282%29.png' , url: 'https://www.instagram.com/tv/CDAECPRBVkW/?utm_source=ig_web_copy_link' },
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/888fdf80-84b3-4de0-9402-c6760997e3aa/ria+kattar.png', url: 'https://www.instagram.com/p/CQLLqonJnWQ/?utm_source=ig_web_copy_link' },
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/8e70f615-0390-490e-bbd1-321e48c388e4/alina.png', url:'https://www.instagram.com/tv/CFkHI6dplK7/?utm_source=ig_web_copy_link' },
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/efc69f88-7e4d-4f95-a7d1-4c2feff57258/capt-ajit.png', url: 'https://www.instagram.com/p/CEY9LugBLdA/?utm_source=ig_web_copy_link' },
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/12ace071-36d4-4297-a18d-53088cb8aa94/hamen.png', url:'https://www.instagram.com/p/CEY_1NfBpAi/?utm_source=ig_web_copy_link' },
+    {id: 7, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/fd1fded4-0ba3-4114-a1c2-858ebb96bd1a/ritwika.png', url: 'https://www.instagram.com/p/CEZi3umhKUU/?utm_source=ig_web_copy_link' },
+    {id: 8, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e422d8da-fae6-4228-bcfb-e583d9a93da1/richa+garg.png', url: 'https://www.instagram.com/p/CKeDlRTnnH-/?utm_source=ig_web_copy_link' }
+]
+
 export {
     team,
     artist,
     cinema,
+    fashion,
     worshopdata,
     instapostdata,
     lehzainstaposts,
