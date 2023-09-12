@@ -31,7 +31,7 @@ const page = () => {
                 <img 
                   src={cinema.img} 
                   alt="could not load the image"
-                  className='md:w-[330px] md:h-[180px] lg:w-[430px] lg:h-[280px]' />
+                  className='md:w-[340px] md:h-[270px] lg:w-[450px] lg:h-[380px]'/>
             </Link>
           </div>
           )

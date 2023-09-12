@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from 'next/link'
+import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai'
 
 const page = () => {
   return (
