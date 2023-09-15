@@ -103,12 +103,35 @@ const fashion = [
     {id: 8, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e422d8da-fae6-4228-bcfb-e583d9a93da1/richa+garg.png', url: 'https://www.instagram.com/p/CKeDlRTnnH-/?utm_source=ig_web_copy_link' }
 ]
 
+const mentalhealth = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e286a373-845d-4e6e-8a09-3050ac04aa5b/Dr.isha.png', url: 'https://www.instagram.com/p/CEv949sB3Wt/?utm_source=ig_web_copy_link'},
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4bb0975e-d343-43f0-a60c-422592a38e3a/maitree.png', url: 'https://www.instagram.com/p/CECjiJvBTUV/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/500cf1c0-2369-4d1f-98fd-fce3f8eaf246/shreya%26arumit.png', url: 'https://www.instagram.com/tv/CDO8ptrBX6M/?utm_source=ig_web_copy_link'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/0ee7dac1-6ee1-4ffd-bab9-0b5d313c155a/amrit+%282%29.png', url: 'https://www.instagram.com/p/CK9CBWbHq4M/?utm_source=ig_web_copy_link'},
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/b8155048-a355-49e0-9c88-2bf5e2145ef2/ananya.png', url: 'https://www.instagram.com/tv/CDGsPpIjTVw/?utm_source=ig_web_copy_link'},
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/c5c9def5-6b75-4f26-9876-cd61c63a8fda/rimjhim.png', url: 'https://www.instagram.com/p/CFPudoSBKJX/?utm_source=ig_web_copy_link'},
+    {id: 7, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/13039e9c-da31-46f1-809a-2a97b47b61a1/shreya.png', url: 'https://www.instagram.com/p/CECeR8ahn9g/?utm_source=ig_web_copy_link'},
+    {id: 8, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/3fa1efef-f94e-4d4d-9c8f-5ab2ecf94c1b/sudha.png', url: 'https://www.instagram.com/tv/CEXucxmhMaW/?utm_source=ig_web_copy_link'},
+    {id: 9, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e4186a08-7c6d-4170-9994-f0c879a62394/abhinand.png', url: 'https://www.instagram.com/tv/CEXujUlhYKm/?utm_source=ig_web_copy_link'}
+]
+
+const entrepreneurship = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/67268b37-9f0d-482f-9198-6502171b452c/aparajita+tiwaro.png', url: 'https://www.instagram.com/p/CKg-x6BHveU/?utm_source=ig_web_copy_link'},
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/91fa9a63-b775-4d45-8f2e-478581881005/manavi.png', url: 'https://www.instagram.com/tv/CGIClLgFTkY/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/5289486b-220e-4698-a06d-2de49db51349/sakshi.png', url: 'https://www.instagram.com/tv/CGcq-L1lIsR/?utm_source=ig_web_copy_link'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e5e8512c-896d-4593-84e7-90376ebb789a/rahul+rathi.png', url: 'https://www.instagram.com/p/CKCiBC_l0hF/?utm_source=ig_web_copy_link'},
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/565b746d-e9ff-4bd1-a9fd-b4762da73397/harsh%26prashant.png', url: 'https://www.instagram.com/p/CKCiBC_l0hF/?utm_source=ig_web_copy_link'},
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/34f5148b-0b8a-49a2-940f-842a9a42cc39/jaishree%26prashant+%282%29.png', url: 'https://www.instagram.com/p/CPI4fSZJHBP/?utm_source=ig_web_copy_link'}
+]
+
 export {
     team,
     artist,
     cinema,
     fashion,
+    entrepreneurship,
     worshopdata,
+    mentalhealth,
     instapostdata,
     lehzainstaposts,
 }

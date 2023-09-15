@@ -16,7 +16,7 @@ const page = () => {
           className='italic underline text-lg mb-10'> 
           — Gianni Versace
         </a>
-        <h1 className='text-5xl lg:text-7xl md:px-[300px] mt-10'>
+        <h1 className='text-4xl md:text-5xl lg:text-7xl md:px-[300px] mt-10'>
           Lehza.in x Fashion
         </h1>
       </div>
@@ -59,7 +59,7 @@ const page = () => {
               className="w-5 h-5 md:w-8 md:h-8 px-1"
             />
           </Link>
-        </div>
+      </div>
     </div>
   )
 }
