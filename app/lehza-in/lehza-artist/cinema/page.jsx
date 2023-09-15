@@ -17,7 +17,7 @@ const page = () => {
           className='italic underline text-lg mb-10'> 
           - Nadine Labaki
         </a>
-        <h1 className='text-5xl lg:text-7xl md:px-[300px] mt-10'>
+        <h1 className='text-4xl md:text-5xl lg:text-7xl md:px-[300px] mt-10'>
           Lehza.in x Cinema
         </h1>
       </div>
