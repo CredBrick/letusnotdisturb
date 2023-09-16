@@ -124,7 +124,15 @@ const entrepreneurship = [
     {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/34f5148b-0b8a-49a2-940f-842a9a42cc39/jaishree%26prashant+%282%29.png', url: 'https://www.instagram.com/p/CPI4fSZJHBP/?utm_source=ig_web_copy_link'}
 ]
 
+const art = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/59ee1db1-0c35-4555-a7c6-4c3a3d318d5f/aashima+sachdeva.png', url: 'https://www.instagram.com/p/CK9HpLZn6hb/?utm_source=ig_web_copy_link'},
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/f368f629-d8d2-4aa5-ae19-d3bb86c0d591/vedanti.png', url: 'https://www.instagram.com/p/CIpiMIOHxy8/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1aeecbe0-4849-4ebe-888d-f7165931b4ad/athira%26prashant.png', url: 'https://www.instagram.com/p/CKEVcNSHJnv/?utm_source=ig_web_copy_link'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/48521fd6-2c4c-4ad7-a8e9-b35785f41a3b/priya+khan.png', url: 'https://www.instagram.com/p/CIaMPgiHCgg/?utm_source=ig_web_copy_link'}
+]
+
 export {
+    art,
     team,
     artist,
     cinema,
