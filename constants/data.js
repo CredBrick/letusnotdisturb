@@ -131,12 +131,27 @@ const art = [
     {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/48521fd6-2c4c-4ad7-a8e9-b35785f41a3b/priya+khan.png', url: 'https://www.instagram.com/p/CIaMPgiHCgg/?utm_source=ig_web_copy_link'}
 ]
 
+const spokenwords = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/07b4dda9-b65e-4774-8bbe-295fc53adc79/manish%26prashant.png', url: 'https://www.instagram.com/p/CJEZHMhlhtK/?utm_source=ig_web_copy_link'},
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e73841b2-c7bb-415a-897e-e854ae6ab7e0/vaibhav%26arumit.png', url: 'https://www.instagram.com/p/CI-KDvVFRox/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/05352041-07bb-4023-b834-3cf2700628cf/jitendra%26prashant.png', url: 'https://www.instagram.com/p/CIv3o9lHdGm/?utm_source=ig_web_copy_link'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/33c11d6b-c282-40f3-874d-be35534073a7/tushar%26prashant.png', url: 'https://www.instagram.com/p/CJEKCY7lLru/?utm_source=ig_web_copy_link'},
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/774660aa-39ef-4716-a0a9-0f1f4810c6ca/gopal%26prashant+%282%29.png', url: 'https://www.instagram.com/p/CJvGofJHI7V/?utm_source=ig_web_copy_link'},
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/6a615823-333b-42a2-b3c3-700aef21dd20/soumya+lochan.png', url: 'https://www.instagram.com/tv/CF4n02pFTbt/?utm_source=ig_web_copy_link'},
+    {id: 7, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/36bc0070-afd7-4101-932f-8149d23233c7/swapnila%26prashant.png', url: 'https://www.instagram.com/p/CNcUzejJWmG/?utm_source=ig_web_copy_link'},
+    {id: 8, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/470597a4-77e4-469f-976e-18b6a872a41e/niyati%26arumit+%282%29.png', url: 'https://www.instagram.com/tv/CC6NDlJh782/?utm_source=ig_web_copy_link'},
+    {id: 9, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/257b6d66-9e3a-4341-bb83-e70754278e62/kritika%26prashant+%282%29.png', url: 'https://www.instagram.com/p/CKALv6kHMTH/?utm_source=ig_web_copy_link'},
+    {id: 10, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/aae34298-d365-4650-86ab-fb9fe6d912eb/sweta.png', url: 'https://www.instagram.com/p/CE_6IiDhNg8/?utm_source=ig_web_copy_link'},
+    {id: 11, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4630b4de-45fd-4ef7-95b1-b225a6197753/sandeep+t.png', url: 'https://www.instagram.com/tv/CF17jX9pkUL/?utm_source=ig_web_copy_link'}
+]
+
 export {
     art,
     team,
     artist,
     cinema,
     fashion,
+    spokenwords,
     entrepreneurship,
     worshopdata,
     mentalhealth,
