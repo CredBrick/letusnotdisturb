@@ -5,6 +5,8 @@ import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai'
 const page = () => {
   return (
     <div className='text-white'>
+
+      {/* headings */}
       <div className='mt-10 text-center'>
         <h2 className='px-10 md:px-[60px] text-2xl md:text-3xl lg:text-4xl mb-10'>
           "The best way to predict the future is to create it." 
@@ -19,6 +21,7 @@ const page = () => {
         </h1>
       </div>
 
+      {/* instagram posts */}
       <div className='mt-10 lg:mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
           {entrepreneurship.map((entrepreneurship, index) => {
             return (
@@ -35,6 +38,7 @@ const page = () => {
             })}
       </div>
 
+      {/* next pages */}
       <div className="flex flex-row items-end justify-end mt-10 md:mt-[100px]">
         <Link
           href="/lehza-in/lehza-artist/mental-health-and-lifestyle"
@@ -57,7 +61,6 @@ const page = () => {
           />
         </Link>
       </div>
-
     </div>
   )
 }
