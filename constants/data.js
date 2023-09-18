@@ -145,11 +145,33 @@ const spokenwords = [
     {id: 11, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4630b4de-45fd-4ef7-95b1-b225a6197753/sandeep+t.png', url: 'https://www.instagram.com/tv/CF17jX9pkUL/?utm_source=ig_web_copy_link'}
 ]
 
+const author = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/2b228b07-93d3-4aaf-8e68-782d0a3940dc/dr+vijayalakshmi.png', url: 'https://www.instagram.com/p/CL4QR4zHoWM/?utm_source=ig_web_copy_link'},
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/381d1aa9-5ff1-4531-a368-7c08bfb2cd5e/kriti+srivastava.png', url: 'https://www.instagram.com/tv/CGfPeezFc5e/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/7b8e1a9e-6616-44e4-8683-5f4184fad856/shubham%26arundhati+%282%29.png', url: 'https://www.instagram.com/p/CK_xLHRFGyk/?utm_source=ig_web_copy_link'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/e7560f8d-17de-4dc3-b1df-744c1d2ab586/tejas.png', url: 'https://www.instagram.com/tv/CGNNftVFa_p/?utm_source=ig_web_copy_link'},
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/a8f23caa-440f-405c-9384-74a55659e409/azeem+.png', url: 'https://www.instagram.com/tv/CGAU2FVFvlT/?utm_source=ig_web_copy_link'},
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/da50c311-c871-4b72-bc5e-c646f8decf59/saumya+shama.png', url: 'https://www.instagram.com/p/CMCfHHFHVCN/?utm_source=ig_web_copy_link'},
+    {id: 7, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/906a39ad-a88c-4080-8e03-5e2f3dcbeafc/shradha+%282%29.png', url: 'https://www.instagram.com/p/CJ0VB1kFSZi/?utm_source=ig_web_copy_link'},
+    {id: 8, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/81989693-792e-421c-b2f8-c58edf2fd0fc/siddrath%26bhavna.png', url: 'https://www.instagram.com/tv/COVTlMRp3BF/?utm_source=ig_web_copy_link'}
+]
+
+const socialact = [
+    {id: 1, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/3d780aae-3f2a-43fd-a9a7-8334cb65e537/rohan.png', url: 'https://www.instagram.com/p/CE_U7k9h5ID/?utm_source=ig_web_copy_link'},
+    {id: 2, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/8046ce23-608f-4b73-82ff-8b786fbbbfbc/hamen.png', url: 'https://www.instagram.com/p/CEY_1NfBpAi/?utm_source=ig_web_copy_link'},
+    {id: 3, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/dc3ea99f-f497-4da2-8287-e671f53a2457/capt-ajit.png', url: 'https://www.instagram.com/p/CEY9LugBLdA/?utm_source=ig_web_copy_link'},
+    {id: 4, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/090d3bac-fda5-44b0-9614-7f2ff6a70dba/sandeep+t.png', url: 'https://www.instagram.com/tv/CF17jX9pkUL/?utm_source=ig_web_copy_link'},
+    {id: 5, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/37af389a-c5e6-46db-b7d1-021b53f093d3/ria.png', url: 'https://www.instagram.com/tv/CFkHI6dplK7/?utm_source=ig_web_copy_link'},
+    {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/6a8f698e-1196-47eb-a652-9d877cad7bf4/kritika%26prashant+%282%29.png', url: 'https://www.instagram.com/tv/CFkHI6dplK7/?utm_source=ig_web_copy_link'},
+]
+
 export {
     art,
     team,
     artist,
+    socialact,
     cinema,
+    author,
     fashion,
     spokenwords,
     entrepreneurship,
