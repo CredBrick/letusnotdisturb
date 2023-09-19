@@ -15,10 +15,10 @@ const data = [
 ];
 
 const subMenudata1 = [
-  { id: 1, name: 'Discover LetUsNotDisturb', url: '/discover-letusnotdisturb' },
-  { id: 2, name: 'Social Media', url: '/social-media' },
+  { id: 1, name: 'Discover LetUsNotDisturb', url: '/letusnotdisturb/discover-letusnotdisturb' },
+  { id: 2, name: 'Social Media', url: '/letusnotdisturb/social-media' },
   { id: 3, name: 'News', url: '/news' },
-  { id: 4, name: 'Workshop', url: '/workshop' },
+  { id: 4, name: 'Workshop', url: '/letusnotdisturb/workshop' },
 ];
 
 const subMenudata2 = [

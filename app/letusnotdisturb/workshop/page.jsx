@@ -11,14 +11,22 @@ const page = () => {
                 src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625725023761-62ZT5TBOUVR5HO6LUYVG/workshop-1746275_1920.jpg?format=2500w"
             />
             <div className="flex items-center justify-center text-center p-4 text-white">
-                <p className="absolute lg:text-4xl md:text-3xl text-2xl md:top-[280px] top-[230px] px-10 md:px-[180px] lg:px-[230px] font-light ">Learning should never stop, and to make sure you're never out of things to do, we've got just the workshops you need.</p>
+                <p className="absolute lg:text-4xl md:text-3xl text-2xl md:top-[280px] top-[230px] px-10 md:px-[180px] lg:px-[230px] font-light ">
+                    Learning should never stop, and to make sure you're never out of things to do, we've got just the workshops you need.
+                </p>
             </div>
         </div>
         <div className='flex flex-col items-center justify-center font-light leading-loose'>
             <div className='md:text-left px-[40px] md:px-[110px] lg:px-[224px]'>
                 <p className='text-3xl lg:text-5xl underline lg:mb-[60px] mb-9 mt-9 lg:mt-11 '>What kind of workshops can I find?</p>
                 <p className='md:text-xl lg:text-2xl font-bold mb-9'>Art: Bring your creativity to life</p>
-                <p className='md:text-lg leading-loose'>Been a while since you tried your hand at art? No better time than now to get back into it. Pick from watercolor painting, charcoal sketching, mandala making, doodling & so much more. There's a variety of digital art workshops - featuring live online demos to learn from. (We know craft can get complicated) Don’t hold back at all, just bring all those colorful thoughts on paper and see it roll out step by step. Art is also therapeutic, so it might be a good idea to take up things other than your daily chores during this work from home period. You don’t really have to be a pro to participate, and we can assure you this ‘cause we’re no experts either. Just Van Gogh get yourself registered and watch your masterpiece come alive.</p>
+                <p className='md:text-lg leading-loose'>
+                    Been a while since you tried your hand at art? No better time than now to get back into it. Pick from watercolor painting, charcoal sketching, 
+                    mandala making, doodling & so much more. There's a variety of digital art workshops - featuring live online demos to learn from. 
+                    (We know craft can get complicated) Don't hold back at all, just bring all those colorful thoughts on paper and see it roll out step by step. 
+                    Art is also therapeutic, so it might be a good idea to take up things other than your daily chores during this work from home period. You don't really have to be a pro to participate, 
+                    and we can assure you this because we're no experts either. Just Van Gogh get yourself registered and watch your masterpiece come alive.
+                </p>
             </div>
 
             <div>
