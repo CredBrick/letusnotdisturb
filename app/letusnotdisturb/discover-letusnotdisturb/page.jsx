@@ -1,4 +1,4 @@
-import React from 'react'
+import Button from '@/components/Button'
 
 const page = () => {
   return (
@@ -21,12 +21,30 @@ const page = () => {
         </div>
       </div>
 
-      <div>
-        <img 
-          src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1628010941889-LK6F0K3X8MDB5IRXA3NG/Stationary.jpg" 
+      <div className='relative flex mt-10'>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1628010941889-LK6F0K3X8MDB5IRXA3NG/Stationary.jpg"
           alt="could not load the image"
-          className='w-full h-auto px-10' />
+          className='z-10 w-full h-auto sm:w-[400px] md:w-[500px] lg:w-[1500px] px-10'
+        />
+        <div className="z-20 absolute top-11 right-[200px] bg-white w-full sm:w-[300px] md:w-[380px] h-[200px] p-4 shadow-md sm:ml-0 sm:mt-0">
+          <p className="text-black text-2xl px-4 mt-4 leading-10">
+            Explore your creative side.
+            <br />
+            Learn a new artform.
+            <br />
+            Follow your passion.
+          </p>
+        </div>
       </div>
+
+      <Button />
+
+      <div className='mt-10 lg:mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
+        
+      </div>
+
+
     </div>
   )
 }
