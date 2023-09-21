@@ -35,7 +35,7 @@ const controlNavbar = () => {
     }
     }, [lastScrollY]);
     return (
-        <header className={`w-full h-[120px] md:h-[80hx] bg-black flex items-center right-9 justify-end z-10 sticky top-0 transition-transform duration-300 ${show}`}>
+        <header className={`w-full h-[120px] md:h-[80hx] bg-black flex items-center right-9 justify-end z-30 sticky top-0 transition-transform duration-300 ${show}`}>
         <Wrapper className="h-[60px] flex justify-between items-center">
             <Link href="/">
                 <img
