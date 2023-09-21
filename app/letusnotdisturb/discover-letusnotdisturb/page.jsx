@@ -1,4 +1,6 @@
 import Button from '@/components/Button'
+import Link from 'next/link'
+import { discover } from '@/constants/data';
 
 const page = () => {
   return (
@@ -41,10 +43,31 @@ const page = () => {
       <Button />
 
       <div className='mt-10 lg:mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
-        
+        {discover.map((discover, index) => {
+          return (
+            <div className='relative' key={index}>
+            <Link
+              href={discover.page}>
+                <img 
+                  src={discover.url} 
+                  alt="could not load the image"
+                  className='md:w-[280px] md:h-[140px] lg:w-[450px] lg:h-[240px]' />
+                <div className='absolute inset-0 lg:right-8 flex items-center justify-center text-center text-white transition-opacity opacity-100 hover:opacity-0'>
+                  <p className='text-2xl lg:text-4xl lg:px-[60px]'>
+                    {discover.title}
+                  </p>
+                </div>
+            </Link>
+          </div>
+          )
+        })}
       </div>
 
-
+      <div className='mt-10 text-center text-white'>
+        <h1 className='text-2xl md:text-4xl'>LetUsNotDisturb is for <br/> Artists/Creators/Curators.</h1>
+        <p className='md:text-lg mt-10'>Join a global community run by you for you.</p>
+        <Button />
+      </div>
     </div>
   )
 }

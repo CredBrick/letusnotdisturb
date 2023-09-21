@@ -165,12 +165,19 @@ const socialact = [
     {id: 6, img: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/6a8f698e-1196-47eb-a652-9d877cad7bf4/kritika%26prashant+%282%29.png', url: 'https://www.instagram.com/tv/CFkHI6dplK7/?utm_source=ig_web_copy_link'},
 ]
 
+const discover = [
+    {id: 1, page: '/letusnotdisturb/discover-letusnotdisturb/youtube', title: 'LetUsNotDisturb - Youtube', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625867191050-C85HWMD4171MQ9E6YMAV/film-589491_1920.jpg'},
+    {id: 2, page: '/letusnotdisturb/discover-letusnotdisturb/artcorner', title: 'LetUsNotDisturb - Artist Corner', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625390695649-FGEZ7ITF8P7KGJTS9MNC/art-1851483_1920.jpg' },
+    {id: 3, page: '/letusnotdisturb/discover-letusnotdisturb/socialactivities', title: 'LetUsNotDisturb - Social Activities', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625390939963-SCG0C7E5A5THM2ZR84HT/hands-6247357_1920.jpg'}
+]
+
 export {
     art,
     team,
     artist,
     socialact,
     cinema,
+    discover,
     author,
     fashion,
     spokenwords,
