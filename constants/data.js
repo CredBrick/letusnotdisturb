@@ -15,6 +15,14 @@ const instapostdata = [
     { id : 14, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1632207947744-6FA4EQURKGGI15WBZBWW/image-asset.jpeg", instaurl: "https://www.instagram.com/p/CT1CaTIpEZG/"}
 ]
 
+const videos = [
+    { id : 1, url: "https://www.youtube.com/embed/7EYfdVvAcFo?wmode=opaque"},
+    { id : 2, url: "https://www.youtube.com/embed/MlSEbEQcgn4?wmode=opaque"},
+    { id : 3, url: "https://www.youtube.com/embed/vT6i1nTMi6Q?wmode=opaque"},
+    { id : 4, url: "https://www.youtube.com/embed/_opxBo6jip4?wmode=opaque"},
+    { id : 5, url: "https://www.youtube.com/embed/XD3VHDo3w84?wmode=opaque"},
+]
+
 const team = [
     { id : 1, url: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625723586788-FAZHYPCL8N4IW5P8STYD/p.png?format=1000w", name: "Prashant Priyadarshi", role: "Community Director, Writer & Host"},
     { id : 2, url: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625723641624-6NSSYCIIY4S30EAN4Q14/r.png?format=1000w", name: "Rimjhim Sharma", role: "Community Design Facilitator"},
@@ -176,6 +184,7 @@ export {
     team,
     artist,
     socialact,
+    videos,
     cinema,
     discover,
     author,

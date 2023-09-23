@@ -1,15 +1,8 @@
 import Link from 'next/link'
-
+import { videos } from '@/constants/data';
 import { FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai"
 
-const videos = [
-    { id : 1, url: "https://www.youtube.com/embed/7EYfdVvAcFo?wmode=opaque"},
-    { id : 2, url: "https://www.youtube.com/embed/MlSEbEQcgn4?wmode=opaque"},
-    { id : 3, url: "https://www.youtube.com/embed/vT6i1nTMi6Q?wmode=opaque"},
-    { id : 4, url: "https://www.youtube.com/embed/_opxBo6jip4?wmode=opaque"},
-    { id : 5, url: "https://www.youtube.com/embed/XD3VHDo3w84?wmode=opaque"},
-]
 
 const instapostdata = [
     { id : 1, imgurl: "https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1639372095078-V2MB6U7P5HFMK64DSOGT/image-asset.jpeg", instaurl: "https://www.instagram.com/p/CXaNcMSPvJ9/"},
@@ -63,16 +56,14 @@ const page = () => {
 
         {/* Youtube Videos */}
         <div className="mt-8 md:pb-[90px] pb-[40px] grid grid-cols-1 md:grid-cols-2 gap-10 px-5 md:px-4 lg:px-10 cursor-pointer">
-            {videos.map((item) => (
+            {videos.map((item, index) => (
                 <iframe 
-                    key={item.id} 
+                    key={index} 
                     src={item.url}
                     width="100%"
                     height="315" 
                     title="YouTube video player" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; encrypted-media; picture-in-picture; web-share" 
-                    allowfullscreen>
+                    >
                 </iframe>   
             ))} 
         </div>
