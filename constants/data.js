@@ -179,6 +179,18 @@ const discover = [
     {id: 3, page: '/letusnotdisturb/discover-letusnotdisturb/socialactivities', title: 'LetUsNotDisturb - Social Activities', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625390939963-SCG0C7E5A5THM2ZR84HT/hands-6247357_1920.jpg'}
 ]
 
+const artcorner = [
+    {id: 1, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/7c497446-f237-4ff1-b190-3f28d731c235/1526902_619199704813489_1070159028_n.jpg'},
+    {id: 2, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/81bccf94-d2b3-4ed9-8a49-5dc78f007cb8/1614086_619199831480143_1150884354_o.jpg'},
+    {id: 3, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/da79ab75-e13a-491c-a52b-9d8ecd045bed/093A9261.JPG'},
+    {id: 4, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/4785b233-976d-48c3-a517-28cc801083c5/093A9340.JPG'},
+    {id: 5, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/b35f3f05-61d1-477b-806f-6e14d8d47b74/1013131_619200101480116_1797028387_n.jpg'},
+    {id: 6, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/36b0ced2-4f70-43a6-9120-aad0cd59c787/943338_619200024813457_331944742_n.jpg'},
+    {id: 7, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/41353a3d-27b2-490b-aefd-7b4892f8b6d9/093A9253d.jpg'},
+    {id: 8, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/3e9365d0-da46-47b3-b6f1-28dd62f8dd80/unnamed.jpg'},
+    {id: 9, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/daef6e48-164f-4a77-b515-579dbc6eb74a/IMG-2297.jpg'},
+]
+
 export {
     art,
     team,
@@ -189,6 +201,7 @@ export {
     discover,
     author,
     fashion,
+    artcorner,
     spokenwords,
     entrepreneurship,
     worshopdata,
