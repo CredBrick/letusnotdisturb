@@ -41,7 +41,7 @@ const controlNavbar = () => {
                 <img
                     src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1622990613752-CWYVT7EFCUBZD46O58NW/let+us+not+disturb1.png?format=1500w"
                     alt="Logo"
-                    className="h-[90px]"
+                    className="h-[90px] md:mr-10"
                 />
             </Link>
             <Menuheader
@@ -61,7 +61,7 @@ const controlNavbar = () => {
         
         <div className='flex items-center md:justify-between text-white'>
             <Link 
-                href="/connect" 
+                href="/contact" 
                 className="hidden md:flex font-normal text-white 
                 hover:bg-white hover:text-black rounded py-5 px-2 md:ml-4">
                 Connect With Us
