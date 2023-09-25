@@ -60,7 +60,7 @@ import '../styles/globals.css';
             </p>
 
             {/* text */}
-            <p className='absolute mt-2 md:mt-4 text-xl md:text-2xl md:top-[200px] top-[170px] md:px-[160px] lg:px-[550px] px-[30px] '>
+            <p className='absolute mt-2 md:mt-4 text-xl md:text-2xl md:top-[200px] top-[170px] md:px-[60px] lg:px-[350px] px-[30px] '>
                 {slides[currentIndex].text.split('\n').map((line, index) => (
                 <React.Fragment key={index}>
                     {line}

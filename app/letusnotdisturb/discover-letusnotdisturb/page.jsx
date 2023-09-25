@@ -44,9 +44,12 @@ const page = () => {
       </div>
 
       {/* button */}
-      <div className='mt-[50px] md:mt-[90px]'>
-        <Button />
-      </div>
+      <Link 
+        href='/contact'
+        className='mt-[50px] md:mt-[80px]'>
+        <Button 
+          label='Join LetUsNotDisturb' />
+      </Link>
 
       {/* other pages */}
       <div className='mt-10 lg:mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
@@ -74,7 +77,12 @@ const page = () => {
       <div className='mt-[80px] text-center text-white'>
         <h1 className='text-2xl md:text-4xl'>LetUsNotDisturb is for <br/> Artists/Creators/Curators.</h1>
         <p className='md:text-lg mt-10'>Join a global community run by you for you.</p>
-        <Button />
+        <Link 
+          href='/contact'
+          className='mt-[50px] md:mt-[80px]'>
+          <Button 
+            label='Join LetUsNotDisturb' />
+        </Link>
       </div>
     </div>
   )
