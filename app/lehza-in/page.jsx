@@ -5,6 +5,7 @@ import { GoPeople } from 'react-icons/go'
 import { PiSortAscendingLight, PiMagicWand } from 'react-icons/pi'
 import { IoTicketOutline } from 'react-icons/io5'
 import { lehzainstaposts } from '@/constants/data';
+import Button from '../../components/Button';
 
 
 const page = () => {
@@ -120,14 +121,17 @@ const page = () => {
             <img 
                 src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1623601004854-SUECDOBOOT37T0BESXJH/ticket-2974645_1920.jpg?format=1500w" 
                 alt="Could not load the image" 
-                className='w-full h-[300px] object-cover'/>
-            <div className='mt-10 flex flex-col items-center justify-center text-center'>
-                <h1 className='text-3xl lg:text-5xl px-6'>Contact Us Today To Learn More</h1>
-                <Link
+                className='w-full h-[300px] object-cover'
+            />
+            {/* contact button */}
+            <div className='mt-10 flex flex-col items-center justify-center text-center font-semibold'>
+                <h1 className='text-3xl lg:text-5xl px-6 font-light'>
+                    Contact Us Today To Learn More
+                </h1>
+                <Link 
                     href='/contact'
-                    target="_blank" rel="noopener noreferrer"
-                    className='text-center'>
-                    <button className='hover:bg-white hover:text-black font-normal text-lg px-4 py-4 mt-8'>Contact Us</button>
+                    target="_blank" rel="noopener noreferrer">
+                    <Button label='Contact Us'/>
                 </Link>
             </div>
         </div>
@@ -138,17 +142,16 @@ const page = () => {
                 <h1 className='text-3xl lg:text-5xl px-4 lg:px-[60px]'>
                     Make it memorable with live chat.
                 </h1>
-                <Link
+
+                {/* Get In Touch button */}
+                <Link 
                     href='/contact'
-                    target="_blank" rel="noopener noreferrer"
-                    className='text-center'>
-                    <button 
-                        className='hover:bg-white hover:text-black font-normal 
-                        text-lg px-4 py-4 mt-8'>
-                        Get In Touch
-                    </button>
+                    target="_blank" rel="noopener noreferrer">
+                    <Button label='Get In Touch'/>
                 </Link>
             </div>
+
+            {/* video */}
             <iframe 
                 src="https://www.youtube.com/embed/Zok838VVMWk?si=kn_aBASoGewYWYek" 
                 title="YouTube video player" 
