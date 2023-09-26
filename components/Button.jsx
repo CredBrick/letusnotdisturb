@@ -4,7 +4,7 @@ const Button = ({ label }) => {
   return (
     <div className='flex items-center justify-center mt-10'>
       <button
-        className='text-white hover:bg-white px-4 py-6 font-semibold hover:text-black'
+        className='text-white hover:bg-white px-4 py-6 hover:text-black'
       >
         {label}
       </button>
