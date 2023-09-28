@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import '../styles/globals.css'
+import styles from './styles.module.css'
 import Header from '@/components/Header'
 
 export const metadata = {
@@ -10,8 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <body>
-            <div className="font-serif min-h-screen background">
+        <body className=''>
+            <div className={`font-serif min-h-screen background`}>
                 <Header />
                 {children}
                 <Footer />

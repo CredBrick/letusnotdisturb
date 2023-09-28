@@ -1,5 +1,6 @@
 'use client';
 import Link from "next/link";
+import Animation from "./Animation";
 import { FaFacebookF, FaTwitter, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai"
 // import Wrapper from "./Wrapper";
@@ -7,6 +8,7 @@ import { AiFillInstagram } from "react-icons/ai"
 const Footer = () => {
     return (
         <footer className="background text-white pt-8 pb-3">
+            <Animation className='fade-in'>
             <div className="ml-6 grid grid-rows-1 md:grid-cols-4 justify-center items-center text-center gap-[35px] md:gap-[85px]">
 
                 {/* Learn More START */}
@@ -145,6 +147,7 @@ const Footer = () => {
                 {/* Created By END */}
 
             </div>
+            </Animation>
         </footer>
     );
 };
