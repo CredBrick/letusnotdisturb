@@ -40,6 +40,16 @@
   font-size: 50px; /* Adjust the size as needed */
 }
 
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in 2s forwards;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0); /* Optional: Reset the position */
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

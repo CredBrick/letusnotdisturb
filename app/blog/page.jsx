@@ -1,8 +1,11 @@
 import Link from 'next/link'
+import '../../styles/globals.css'
+import Animation from '../../components/Animation'
 
 const page = () => {
   return (
-    <div>
+    <div className=''>
+        <Animation className='fade-in'>
         <div>
             <img
                 className="relative object-cover md:w-full bg-center bg-cover w-full h-[180px] opacity-50"
@@ -69,6 +72,7 @@ const page = () => {
                 </Link>
             </div>
         </div>
+        </Animation>
     </div>
   )
 }
