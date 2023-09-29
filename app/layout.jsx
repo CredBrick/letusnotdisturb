@@ -1,6 +1,5 @@
 import Footer from '@/components/Footer'
 import '../styles/globals.css'
-import styles from './styles.module.css'
 import Header from '@/components/Header'
 
 export const metadata = {
