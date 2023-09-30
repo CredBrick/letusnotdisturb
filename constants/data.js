@@ -191,10 +191,28 @@ const artcorner = [
     {id: 9, url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/daef6e48-164f-4a77-b515-579dbc6eb74a/IMG-2297.jpg'},
 ]
 
+const workshop = [
+    {id: 1, title: 'MadhabiGi', comurl: 'https://themadhabi.in/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625862106413-0NZ4Z94LSUTCQTIKKFI4/8.jpg'},
+    {id: 2, title: 'Ignite India', comurl: 'https://igniteindiaeducation.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1628019297843-ILCB3F04D3FG61MNHZ9A/ig.jpg'},
+    {id: 3, title: 'Music || ATMUS', comurl: 'https://www.atmusmusic.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625862624515-W4NJHT1IVCHCVSJEZBZ2/zzc.jpg'},
+    {id: 4, title: 'Silver Lining Sundays', comurl: 'https://shreyasls.substack.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625862905267-1TC8UW7EF5XFXFV1ZC64/zx.jpg'},
+    {id: 5, title: 'Gilehrio', comurl: 'https://www.gilehrio.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863004765-RQ2W9AYEGKCAM05RMRM4/q.jpg'},
+    {id: 6, title: 'Dynamix Creation', comurl: 'https://dynamixcreation.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863128581-02UQJM3OT3NS0PD685V7/w.jpg'},
+    {id: 7, title: 'Soul Curry', comurl: 'https://www.officialsoulcurry.com/', url:'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863234417-REAWGWXTNZOUC1EQAH21/e.jpg'},
+    {id: 8, title: 'Architect Manavi', comurl: 'http://iyfbodn.com/?dn=architectmanavi.com&pid=9POT3387I&pbsubid=971b57dc-4a2d-4600-a134-b2625cac262c&noads=http%3A%2F%2Fiyfbodn.com%2F%3Fdn%3Darchitectmanavi.com%26skipskenzo%3Dtrue&enc_txt=nVAi3LDCaleZ47o67uKYp476DCEJtLYwFCYBZVaCZgTjMnWYJ8yBpZaleUCKGYN%2FNg2H4l%2BTLHXgzooN60zp%2BX3dnUs2R0ZFbNeufoFNCFTfTl3M8ek6MlI7lt3vnR8J&enc_lnk=4fiHOOd3bUPFsb69bWhKgHiQp8dCXS2GiXZt%2BsqtFN%2FAtW1XyIeg7%2BdU67KYQaFmI%2BcI9%2Bfm%2BEnuA%2B4ySceqBWJ%2FijscPVTH6P9Cnn%2Frfb257CBMdqUHzOomxUjsf9ou', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863321449-72LPABJ03Y3VCYSIAEX1/r.jpg'},
+    {id: 9, title: 'Bonvera', comurl: 'https://bonvera.in/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863383768-OIZPY0J94N4C6BDY3PNT/t.jpg'},
+    {id: 10, title: 'Sandeep Soparkar', comurl: 'http://sandipsoparrkar.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863440087-RJQQAE9CZTQKMP1XLL4K/y.jpg'},
+    {id: 11, title: 'Hasya Hetu', comurl: 'https://www.hasyahetufilms.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863524235-7P93O34XWOFKBXZT0MPF/o.jpg'},
+    {id: 12, title: 'The Honest Critique', comurl: 'https://www.thehonestcritique.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863625546-AS2VR7BWT8XHAIZ8C06Z/lk.jpg'},
+    {id: 13, title: 'AA - AskAshirvad', comurl: 'https://askashirvad.com/', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863732103-8O4GEB09KWCKBOXJXQRP/aa.jpg'},
+    {id: 14, title: 'YUZU - Fashion Redefined', comurl: 'www.beyuzu.in', url: 'https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863792629-V8ABIFRQZVD2HGAUSCKY/zxx.jpg'}
+]
+
 export {
     art,
     team,
     artist,
+    workshop,
     socialact,
     videos,
     cinema,

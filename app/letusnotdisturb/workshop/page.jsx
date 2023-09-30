@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import { worshopdata } from '@/constants/data'
+import { worshopdata, workshop } from '@/constants/data'
 
 const page = () => {
   return (
@@ -16,6 +16,7 @@ const page = () => {
                 </p>
             </div>
         </div>
+
         <div className='flex flex-col items-center justify-center font-light leading-loose'>
             <div className='md:text-left px-[40px] md:px-[110px] lg:px-[224px]'>
                 <p className='text-3xl lg:text-5xl underline lg:mb-[60px] mb-9 mt-9 lg:mt-11 '>What kind of workshops can I find?</p>
@@ -70,16 +71,55 @@ const page = () => {
                 Register Now
             </Link>
         </div>
-            <div className=" relative mt-9">
-                <img
-                    className="inset-0 min-w-[100%] h-[300px] mb-10"
-                    src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625756902416-7I9KP8E7OIU8KUBD62GW/create-3026190_1920.jpg?format=2500w"
-                    alt="could not load the image"
-                />
-                <div className="absolute inset-0 flex items-center justify-center text-center text-white">
-                    <p className="md:text-4xl text-3xl">Our E-Network</p>
-                </div>
+
+        <div className=" relative mt-9">
+            <img
+                className="inset-0 min-w-[100%] h-[300px] mb-10"
+                src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625756902416-7I9KP8E7OIU8KUBD62GW/create-3026190_1920.jpg?format=2500w"
+                alt="could not load the image"
+            />
+            <div className="absolute inset-0 flex items-center justify-center text-center text-white">
+                <p className="md:text-4xl text-3xl">Our E-Network</p>
             </div>
+        </div>
+
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6 '>
+            {workshop.map((workshop, index) => {
+            return (
+                <div
+                    className='flex flex-col mb-6 '
+                    key={index}
+                >
+                    <div className='flex flex-row items-center'>
+                        <Link
+                            href={workshop.comurl}
+                            className='cursor-pointer'>
+                            <img 
+                                src={workshop.url} 
+                                alt="could not load"
+                                className='h-[90px] w-[200px] md:h-[150px] md:w-[300px] md:mt-9 px-4 mb-9 ml-4' 
+                            />
+                        </Link>
+                        <p className='mb-6 px-2 text-md md:text-lg lg:text-xl'>
+                            {workshop.title}
+                        </p>
+                    </div>
+                </div>      
+            );
+            })}
+        </div>
+
+        <Link
+            href='https://www.prattyancha.org/'
+            className='flex flex-col md:flex-row items-center justify-center mb-10'>
+            <img 
+                src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625863922927-6F2Q64OK8LI8Q29CG5TT/cv.jpg" 
+                alt="could not load the image" 
+                className='mt-10 md:ml-6 w-[300px] md:w-[600px] lg:w-[750px]'/>
+            <p className='mt-4 text-xl md:ml-8 md:text-2xl'>
+                Prattyancha NGO
+            </p>
+        </Link>
     </div>
   )
 }
