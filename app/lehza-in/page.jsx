@@ -18,11 +18,11 @@ const page = () => {
                 alt="Could not load the image" 
                 className='w-[850px] h-[400px] md:w-full md:h-[700px] object-cover'/>
 
-            <div className="absolute top-[10px] md:top-[100px] w-full h-full flex flex-col justify-left items-left text-white">
-                <p className='text-3xl md:text-5xl lg:text-7xl md:px-[40px] lg:px-[450px] px-[30px] leading-[50px] md:leading-[60px]'>
+            <div className="absolute top-[10px] md:top-[100px] w-full h-full flex flex-col justify-left text-white">
+                <p className='text-3xl md:text-5xl lg:text-7xl md:px-[40px] lg:px-[60px] xl:px-[250px] px-[30px] leading-[50px] md:leading-[60px]'>
                     Stay Connected with our virtual concerts
                 </p>
-                <p className='mt-4 text-xl px-[30px] md:px-[60px] lg:px-[450px]'>
+                <p className='mt-10 text-xl px-[30px] md:px-[60px] lg:px-[60px] xl:px-[250px]'>
                     Add the magic of aspiration and inspiration to your next event.
                 </p>
             </div>
@@ -80,7 +80,7 @@ const page = () => {
                 <p className='text-2xl mb-10'>
                     Bring your people together no matter where they are
                 </p>
-                <p className='text-lg'>
+                <p className='text-lg px-1'>
                     Interested in bringing live chat to your team, friends, or community? <br/>
                     No matter the occasion, we can produce your event on air. <br/>
                     We are all ears to hear stories from our guests, but we believe in talking more about aspirations than achievements. <br/>
@@ -155,10 +155,7 @@ const page = () => {
             <iframe 
                 src="https://www.youtube.com/embed/Zok838VVMWk?si=kn_aBASoGewYWYek" 
                 title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer" 
-                allowfullscreen
-                className='p-6 w-full h-[400px] lg:h-[600px]'>
+                className='p-4 w-full h-[400px] lg:h-[500px]'>
             </iframe>
         </div>
 
@@ -180,7 +177,7 @@ const page = () => {
         </div>
 
         {/* instagram posts */}
-        <div className='mt-[60px] md:mt-[70px] flex flex-col items-center justify-center'>
+        <div className='mt-[60px] md:mt-[70px] md:mb-[60px] flex flex-col items-center justify-center'>
             <h1 className='mb-10 text-3xl lg:text-5xl'>
                 Follow our journey.
             </h1>
