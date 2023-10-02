@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from '../../../components/Form'
 
 const page = () => {
   return (
@@ -50,16 +51,16 @@ const page = () => {
       {/* Voice Behind Lehza.in */}
       <div className='flex flex-col md:flex-row mt-[70px]'>
 
-        <div className='flex flex-col items-center'>
-          <h1 className='text-3xl px-8 text-center mb-10'>Voice Behind Lehza.in</h1>
+        <div className='flex flex-col items-center basis-1/2'>
+          <h1 className='text-3xl text-center mb-10'>Voice Behind Lehza.in</h1>
           <img 
             src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625386498249-S0W1TLPBLSOUZG8VNI3X/13.jpg?format=1000w" 
             alt="could not load the image"
-            className='px-10 md:px-0 lg:px-10 md:object-fill md:w-[6000px] md:h-[350px] lg:h-[480px] md:ml-10' />
+            className='mt-4 px-10 lg:px-10 md:w-[1000px] md:h-[400px] lg:w-[600px] lg:h-auto md:ml-10' />
         </div>
 
-        <div className='px-6 md:px-[80px] mt-10 ml-4 md:mt-[80px]'>
-          <p className='mb-6 text-lg'>
+        <div className='basis-1/2 px-10 lg:px-[80px] mt-10 md:mt-[80px]'>
+          <p className=' mb-6 text-lg'>
             Prashant is a multi-skilled accomplished and detail-oriented Brand Storyteller highly regarded for being a 
             people's person and specialized in all areas of Marketing, Brand strategizing, Brand storytelling and Brand managing, etc. 
             With 8 years of experience coupled with strong Visual merchandising acumen and significant designing and marketing exposure, 
@@ -82,10 +83,19 @@ const page = () => {
       </div>
 
       {/* form here */}
-      <div>
-
+      <div className='relative'>
+        <div className='absolute inset-0'>
+          <img 
+            src="https://images.squarespace-cdn.com/content/v1/60bcdce3539722187fb73258/1625390269020-Y2PZWRR90L497JHK6K2R/book-1149031_1920.jpg" 
+            alt="could not load the image"
+            className='w-full h-[600px] object-cover opacity-50]'
+          />
+        </div>
+        <div className='px-10 mb-[80px] lg:mb-[120px] relative z-20 top-10'>
+          <Form />
+        </div>
       </div>
-      
+
     </div>
   )
 }
