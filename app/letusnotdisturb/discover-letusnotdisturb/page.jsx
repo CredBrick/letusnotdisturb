@@ -46,13 +46,13 @@ const page = () => {
       {/* button */}
       <Link 
         href='/contact'
-        className='mt-[50px] md:mt-[80px]'>
+        className='relative top-10'>
         <Button 
           label='Join LetUsNotDisturb' />
       </Link>
 
       {/* other pages */}
-      <div className='mt-10 lg:mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
+      <div className='mt-[100px] px-10 lg:ml-10 grid grid-rows-1 md:grid-cols-3 gap-4 md:gap-2 lg:gap-4 items-center justify-center cursor-pointer'>
         {discover.map((discover, index) => {
           return (
             <div className='relative' key={index}>
@@ -61,9 +61,9 @@ const page = () => {
                 <img 
                   src={discover.url} 
                   alt="could not load the image"
-                  className='md:w-[280px] md:h-[140px] lg:w-[450px] lg:h-[240px]' />
-                <div className='absolute inset-0 lg:right-8 flex items-center justify-center text-center text-white transition-opacity opacity-100 hover:opacity-0'>
-                  <p className='text-2xl lg:text-4xl lg:px-[60px]'>
+                  className='md:w-[280px] md:h-[140px] lg:w-[450px] lg:h-[240px] opacity-60' />
+                <div className='absolute inset-0 lg:right-8 flex items-center justify-center text-center text-white transition-opacity opacity-95 hover:opacity-0'>
+                  <p className='text-2xl lg:text-3xl md:px-10'>
                     {discover.title}
                   </p>
                 </div>
